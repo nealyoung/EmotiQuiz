@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bored</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Proud</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Worried</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Curious</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Angry</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Surprised</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Calm</key>
+	<array>
+		<string>calm.jpg</string>
+	</array>
+	<key>Excited</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Sad</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+	<key>Happy</key>
+	<array>
+		<string>happy.png</string>
+	</array>
+</dict>
+</plist>
