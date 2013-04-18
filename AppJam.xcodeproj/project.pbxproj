@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB621171F77BF00D5511F /* FlatNavBar@2x.png */; };
+		087CB624171F78F400D5511F /* FlatTabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB623171F78F400D5511F /* FlatTabBar@2x.png */; };
+		087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB625171F80BF00D5511F /* Lato-Reg.ttf */; };
+		087CB62F171F912700D5511F /* FlatBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB62E171F912600D5511F /* FlatBarButton@2x.png */; };
 		0EF5BAAA171F1C7700973152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAA9171F1C7700973152 /* UIKit.framework */; };
 		0EF5BAAC171F1C7700973152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAB171F1C7700973152 /* Foundation.framework */; };
 		0EF5BAAE171F1C7700973152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */; };
@@ -50,10 +54,14 @@
 		0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB25171F31EE00973152 /* QuestionData.plist */; };
 		0EF5BB28171F4A5400973152 /* calm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB27171F4A5400973152 /* calm.jpg */; };
 		0EF5BB2B171F4D8100973152 /* NavigationBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB29171F4D8000973152 /* NavigationBarBackground.png */; };
-		0EF5BB2C171F4D8100973152 /* NavigationBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB2A171F4D8100973152 /* NavigationBarBackground@2x.png */; };
+		0EF5BB2C171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB2A171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		087CB621171F77BF00D5511F /* FlatNavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatNavBar@2x.png"; sourceTree = "<group>"; };
+		087CB623171F78F400D5511F /* FlatTabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatTabBar@2x.png"; sourceTree = "<group>"; };
+		087CB625171F80BF00D5511F /* Lato-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Reg.ttf"; sourceTree = "<group>"; };
+		087CB62E171F912600D5511F /* FlatBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButton@2x.png"; sourceTree = "<group>"; };
 		0EF5BAA6171F1C7700973152 /* AppJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5BAA9171F1C7700973152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF5BAAB171F1C7700973152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,7 +122,7 @@
 		0EF5BB25171F31EE00973152 /* QuestionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionData.plist; sourceTree = "<group>"; };
 		0EF5BB27171F4A5400973152 /* calm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calm.jpg; sourceTree = "<group>"; };
 		0EF5BB29171F4D8000973152 /* NavigationBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBarBackground.png; sourceTree = "<group>"; };
-		0EF5BB2A171F4D8100973152 /* NavigationBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBarBackground@2x.png"; sourceTree = "<group>"; };
+		0EF5BB2A171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBarBackgroundBackup@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +190,8 @@
 				0EF5BAB5171F1C7700973152 /* main.m */,
 				0EF5BAB7171F1C7700973152 /* AppJam-Prefix.pch */,
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
+				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
+				087CB62E171F912600D5511F /* FlatBarButton@2x.png */,
 				0EF5BB23171F234900973152 /* happy.png */,
 				0EF5BB27171F4A5400973152 /* calm.jpg */,
 				0EF5BAF2171F1DA400973152 /* background.png */,
@@ -196,7 +206,9 @@
 				0EF5BAFB171F1DA400973152 /* quiz.png */,
 				0EF5BAFC171F1DA400973152 /* quiz@2x.png */,
 				0EF5BB29171F4D8000973152 /* NavigationBarBackground.png */,
-				0EF5BB2A171F4D8100973152 /* NavigationBarBackground@2x.png */,
+				0EF5BB2A171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png */,
+				087CB621171F77BF00D5511F /* FlatNavBar@2x.png */,
+				087CB623171F78F400D5511F /* FlatTabBar@2x.png */,
 				0EF5BAE8171F1D9C00973152 /* Icon.png */,
 				0EF5BAE9171F1D9C00973152 /* Icon@2x.png */,
 				0EF5BAEA171F1D9C00973152 /* Default.png */,
@@ -338,7 +350,11 @@
 				0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */,
 				0EF5BB28171F4A5400973152 /* calm.jpg in Resources */,
 				0EF5BB2B171F4D8100973152 /* NavigationBarBackground.png in Resources */,
-				0EF5BB2C171F4D8100973152 /* NavigationBarBackground@2x.png in Resources */,
+				0EF5BB2C171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png in Resources */,
+				087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */,
+				087CB624171F78F400D5511F /* FlatTabBar@2x.png in Resources */,
+				087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */,
+				087CB62F171F912700D5511F /* FlatBarButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +494,7 @@
 				0EF5BACB171F1C7700973152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

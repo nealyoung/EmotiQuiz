@@ -37,7 +37,7 @@
     [super viewDidLoad];
     
     // Set the view's background pattern
-    self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"background.png"]];
+    self.view.backgroundColor = [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0];
     
     // Set the color of the answer buttons
     self.answer0.color = [UIColor colorWithRed:.27 green:.27 blue:.27 alpha:1.0];
@@ -48,10 +48,8 @@
     // Set up the cancel button
     UIBarButtonItem *cancel = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(dismissViewController)];
     
-    self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:.22 green:.22 blue:.22 alpha:1.0];
     self.navigationItem.leftBarButtonItem = cancel;
-    self.navigationItem.title = @"Movie Quiz";
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"quiznavbar.png"]];
+    self.navigationItem.title = @"Quiz";
     
     NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:[self methodSignatureForSelector:@selector(updateTimer:)]];
     [invocation setTarget:self];

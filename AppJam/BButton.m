@@ -52,7 +52,6 @@
     // Initialization code
     self.backgroundColor = [UIColor clearColor];
     self.color = [UIColor colorWithRed:0.00f green:0.33f blue:0.80f alpha:1.00f];
-    self.titleLabel.shadowOffset = CGSizeMake(0.0, -1.0);
 }
 
 - (void) setHighlighted:(BOOL)highlighted {
@@ -66,7 +65,7 @@
     if ([self isLightColor:color]) {
         [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self setTitleShadowColor:[[UIColor whiteColor] colorWithAlphaComponent:0.6] forState:UIControlStateNormal];
-    }else {
+    } else {
         [self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [self setTitleShadowColor:[[UIColor blackColor] colorWithAlphaComponent:0.6] forState:UIControlStateNormal];
     }
@@ -128,20 +127,29 @@
     // Drawing code
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    UIColor* border = [self darkenColor:_color value:0.06];
+    //UIColor* border = [self darkenColor:_color value:0.06];
     
     //// Shadow Declarations
-    UIColor* shadow = [self lightenColor:border value:0.50];
-    CGSize shadowOffset = CGSizeMake(0, 1);
-    CGFloat shadowBlurRadius = 2;
+    //UIColor* shadow = [self lightenColor:border value:0.50];
+    //CGSize shadowOffset = CGSizeMake(0, 1);
+    //CGFloat shadowBlurRadius = 2;
     
     //// Rounded Rectangle Drawing
     UIBezierPath* roundedRectanglePath = [UIBezierPath bezierPathWithRoundedRect: CGRectMake(0.5, 0.5, rect.size.width-1.0, rect.size.height-1.0) cornerRadius: 6];
     CGContextSaveGState(context);
     [roundedRectanglePath addClip];
-    CGContextDrawLinearGradient(context, _gradient, CGPointMake(0.0, self.highlighted ? rect.size.height-0.5 : 0.5), CGPointMake(0.0, self.highlighted ? 0.5 : rect.size.height-0.5), 0);
+    
+    CGFloat red, green, blue, alpha;
+    [_color getRed:&red green:&green blue:&blue alpha:&alpha];
+    
+    float fillColor[] = {red, green, blue, alpha};
+    CGContextSetFillColor(context, fillColor);
+    CGContextFillRect(context, rect);
+    //CGContextDrawLinearGradient(context, _gradient, CGPointMake(0.0, self.highlighted ? rect.size.height-0.5 : 0.5), CGPointMake(0.0, self.highlighted ? 0.5 : rect.size.height-0.5), 0);
     CGContextRestoreGState(context);
     
+    
+    /*
     if (!self.highlighted) {
         ////// Rounded Rectangle Inner Shadow
         CGRect roundedRectangleBorderRect = CGRectInset([roundedRectanglePath bounds], -shadowBlurRadius, -shadowBlurRadius);
@@ -169,10 +177,11 @@
         }
         CGContextRestoreGState(context);
     }
-        
-    [border setStroke];
-    roundedRectanglePath.lineWidth = 1;
-    [roundedRectanglePath stroke];
+    */
+    
+    //[border setStroke];
+    //roundedRectanglePath.lineWidth = 1;
+    //[roundedRectanglePath stroke];
 }
 
 - (UIColor *)lightenColor:(UIColor *)oldColor value:(float)value {

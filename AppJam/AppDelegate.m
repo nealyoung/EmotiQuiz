@@ -11,8 +11,12 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavigationBarBackground.png"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"FlatNavBar.png"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor, [UIFont fontWithName:@"Lato-Regular" size:19.0], UITextAttributeFont,nil]];
     
+    [[UIBarButtonItem appearance] setBackgroundImage:[UIImage imageNamed:@"FlatBarButton.png"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"Lato-Regular" size:19]];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     UIViewController *quizView = [[StartQuizViewController alloc] initWithNibName:@"StartQuizViewController" bundle:nil];
@@ -23,7 +27,7 @@
     NSArray *tabs = [[NSArray alloc] initWithObjects: quizView, statsView, nil];
     
     [self.tabController setViewControllers:tabs];
-    self.tabController.tabBar.backgroundImage = [UIImage imageNamed:@"TabBarBackground.png"];
+    self.tabController.tabBar.backgroundImage = [UIImage imageNamed:@"FlatTabBar.png"];
     self.tabController.tabBar.selectedImageTintColor = [UIColor colorWithRed:.82 green:.82 blue:.82 alpha:1.0];
     
     self.window.rootViewController = self.tabController;
