@@ -7,8 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMDatabase.h"
-#import "FMResultSet.h"
 #import "QuizItem.h"
 #import "QuizQuestion.h"
 

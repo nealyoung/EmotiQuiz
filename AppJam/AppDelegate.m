@@ -11,7 +11,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"FlatNavBar.png"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"FlatTabBar.png"] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor, [UIFont fontWithName:@"Lato-Regular" size:19.0], UITextAttributeFont,nil]];
     
     [[UIBarButtonItem appearance] setBackgroundImage:[UIImage imageNamed:@"FlatBarButton.png"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];

@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB621171F77BF00D5511F /* FlatNavBar@2x.png */; };
-		087CB624171F78F400D5511F /* FlatTabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB623171F78F400D5511F /* FlatTabBar@2x.png */; };
 		087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB625171F80BF00D5511F /* Lato-Reg.ttf */; };
 		087CB62F171F912700D5511F /* FlatBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB62E171F912600D5511F /* FlatBarButton@2x.png */; };
+		087CB631171F994700D5511F /* FlatBarButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB630171F994700D5511F /* FlatBarButtonPressed@2x.png */; };
+		087CB633171F9C3E00D5511F /* FlatTabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */; };
 		0EF5BAAA171F1C7700973152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAA9171F1C7700973152 /* UIKit.framework */; };
 		0EF5BAAC171F1C7700973152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAB171F1C7700973152 /* Foundation.framework */; };
 		0EF5BAAE171F1C7700973152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */; };
@@ -28,16 +29,10 @@
 		0EF5BAEF171F1D9D00973152 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEA171F1D9C00973152 /* Default.png */; };
 		0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEB171F1D9C00973152 /* Default@2x.png */; };
 		0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */; };
-		0EF5BB03171F1DA400973152 /* TabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF8171F1DA400973152 /* TabBarBackground@2x.png */; };
 		0EF5BB04171F1DA400973152 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF9171F1DA400973152 /* stats.png */; };
 		0EF5BB05171F1DA400973152 /* stats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAFA171F1DA400973152 /* stats@2x.png */; };
 		0EF5BB06171F1DA400973152 /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAFB171F1DA400973152 /* quiz.png */; };
 		0EF5BB07171F1DA400973152 /* quiz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAFC171F1DA400973152 /* quiz@2x.png */; };
-		0EF5BB12171F1DC100973152 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BB09171F1DC000973152 /* FMDatabase.m */; };
-		0EF5BB13171F1DC100973152 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BB0B171F1DC000973152 /* FMDatabaseAdditions.m */; };
-		0EF5BB14171F1DC100973152 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BB0D171F1DC000973152 /* FMDatabasePool.m */; };
-		0EF5BB15171F1DC100973152 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BB0F171F1DC000973152 /* FMDatabaseQueue.m */; };
-		0EF5BB16171F1DC100973152 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BB11171F1DC100973152 /* FMResultSet.m */; };
 		0EF5BB18171F1DDF00973152 /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BACD171F1D2C00973152 /* BButton.m */; };
 		0EF5BB19171F1DDF00973152 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BACF171F1D2C00973152 /* Quiz.m */; };
 		0EF5BB1A171F1DDF00973152 /* QuizQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BAD1171F1D2C00973152 /* QuizQuestion.m */; };
@@ -51,9 +46,10 @@
 
 /* Begin PBXFileReference section */
 		087CB621171F77BF00D5511F /* FlatNavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatNavBar@2x.png"; sourceTree = "<group>"; };
-		087CB623171F78F400D5511F /* FlatTabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatTabBar@2x.png"; sourceTree = "<group>"; };
 		087CB625171F80BF00D5511F /* Lato-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Reg.ttf"; sourceTree = "<group>"; };
 		087CB62E171F912600D5511F /* FlatBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButton@2x.png"; sourceTree = "<group>"; };
+		087CB630171F994700D5511F /* FlatBarButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButtonPressed@2x.png"; sourceTree = "<group>"; };
+		087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatTabBar@2x.png"; sourceTree = "<group>"; };
 		0EF5BAA6171F1C7700973152 /* AppJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5BAA9171F1C7700973152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF5BAAB171F1C7700973152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,21 +84,10 @@
 		0EF5BAEA171F1D9C00973152 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0EF5BAEB171F1D9C00973152 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0EF5BAF8171F1DA400973152 /* TabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarBackground@2x.png"; sourceTree = "<group>"; };
 		0EF5BAF9171F1DA400973152 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
 		0EF5BAFA171F1DA400973152 /* stats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stats@2x.png"; sourceTree = "<group>"; };
 		0EF5BAFB171F1DA400973152 /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
 		0EF5BAFC171F1DA400973152 /* quiz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz@2x.png"; sourceTree = "<group>"; };
-		0EF5BB08171F1DC000973152 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		0EF5BB09171F1DC000973152 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		0EF5BB0A171F1DC000973152 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		0EF5BB0B171F1DC000973152 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		0EF5BB0C171F1DC000973152 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		0EF5BB0D171F1DC000973152 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		0EF5BB0E171F1DC000973152 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		0EF5BB0F171F1DC000973152 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		0EF5BB10171F1DC100973152 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		0EF5BB11171F1DC100973152 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		0EF5BB1D171F1E0600973152 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		0EF5BB23171F234900973152 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 		0EF5BB25171F31EE00973152 /* QuestionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionData.plist; sourceTree = "<group>"; };
@@ -157,7 +142,6 @@
 			children = (
 				0EF5BAB8171F1C7700973152 /* AppDelegate.h */,
 				0EF5BAB9171F1C7700973152 /* AppDelegate.m */,
-				0EF5BB17171F1DC500973152 /* FMDB */,
 				0EF5BAD6171F1D4700973152 /* Classes */,
 				0EF5BAE0171F1D5B00973152 /* View Controllers */,
 				0EF5BAE7171F1D7700973152 /* XIBs */,
@@ -176,15 +160,15 @@
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
 				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
 				087CB62E171F912600D5511F /* FlatBarButton@2x.png */,
+				087CB630171F994700D5511F /* FlatBarButtonPressed@2x.png */,
+				087CB621171F77BF00D5511F /* FlatNavBar@2x.png */,
+				087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */,
 				0EF5BB23171F234900973152 /* happy.png */,
 				0EF5BB27171F4A5400973152 /* calm.jpg */,
-				0EF5BAF8171F1DA400973152 /* TabBarBackground@2x.png */,
 				0EF5BAF9171F1DA400973152 /* stats.png */,
 				0EF5BAFA171F1DA400973152 /* stats@2x.png */,
 				0EF5BAFB171F1DA400973152 /* quiz.png */,
 				0EF5BAFC171F1DA400973152 /* quiz@2x.png */,
-				087CB621171F77BF00D5511F /* FlatNavBar@2x.png */,
-				087CB623171F78F400D5511F /* FlatTabBar@2x.png */,
 				0EF5BAE8171F1D9C00973152 /* Icon.png */,
 				0EF5BAE9171F1D9C00973152 /* Icon@2x.png */,
 				0EF5BAEA171F1D9C00973152 /* Default.png */,
@@ -232,23 +216,6 @@
 				0EF5BAE3171F1D7200973152 /* QuizViewController.xib */,
 			);
 			name = XIBs;
-			sourceTree = "<group>";
-		};
-		0EF5BB17171F1DC500973152 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				0EF5BB08171F1DC000973152 /* FMDatabase.h */,
-				0EF5BB09171F1DC000973152 /* FMDatabase.m */,
-				0EF5BB0A171F1DC000973152 /* FMDatabaseAdditions.h */,
-				0EF5BB0B171F1DC000973152 /* FMDatabaseAdditions.m */,
-				0EF5BB0C171F1DC000973152 /* FMDatabasePool.h */,
-				0EF5BB0D171F1DC000973152 /* FMDatabasePool.m */,
-				0EF5BB0E171F1DC000973152 /* FMDatabaseQueue.h */,
-				0EF5BB0F171F1DC000973152 /* FMDatabaseQueue.m */,
-				0EF5BB10171F1DC100973152 /* FMResultSet.h */,
-				0EF5BB11171F1DC100973152 /* FMResultSet.m */,
-			);
-			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +278,6 @@
 				0EF5BAEF171F1D9D00973152 /* Default.png in Resources */,
 				0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */,
 				0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */,
-				0EF5BB03171F1DA400973152 /* TabBarBackground@2x.png in Resources */,
 				0EF5BB04171F1DA400973152 /* stats.png in Resources */,
 				0EF5BB05171F1DA400973152 /* stats@2x.png in Resources */,
 				0EF5BB06171F1DA400973152 /* quiz.png in Resources */,
@@ -320,9 +286,10 @@
 				0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */,
 				0EF5BB28171F4A5400973152 /* calm.jpg in Resources */,
 				087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */,
-				087CB624171F78F400D5511F /* FlatTabBar@2x.png in Resources */,
 				087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */,
 				087CB62F171F912700D5511F /* FlatBarButton@2x.png in Resources */,
+				087CB631171F994700D5511F /* FlatBarButtonPressed@2x.png in Resources */,
+				087CB633171F9C3E00D5511F /* FlatTabBar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,11 +305,6 @@
 				0EF5BADD171F1D5700973152 /* StatsViewController.m in Sources */,
 				0EF5BADE171F1D5700973152 /* StartQuizViewController.m in Sources */,
 				0EF5BADF171F1D5700973152 /* QuizViewController.m in Sources */,
-				0EF5BB12171F1DC100973152 /* FMDatabase.m in Sources */,
-				0EF5BB13171F1DC100973152 /* FMDatabaseAdditions.m in Sources */,
-				0EF5BB14171F1DC100973152 /* FMDatabasePool.m in Sources */,
-				0EF5BB15171F1DC100973152 /* FMDatabaseQueue.m in Sources */,
-				0EF5BB16171F1DC100973152 /* FMResultSet.m in Sources */,
 				0EF5BB18171F1DDF00973152 /* BButton.m in Sources */,
 				0EF5BB19171F1DDF00973152 /* Quiz.m in Sources */,
 				0EF5BB1A171F1DDF00973152 /* QuizQuestion.m in Sources */,

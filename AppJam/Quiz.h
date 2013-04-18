@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "QuizQuestion.h"
 #import "QuizItem.h"
-#import "FMDatabase.h"
 #import "QuestionGenerator.h"
 
 @interface Quiz : NSObject
