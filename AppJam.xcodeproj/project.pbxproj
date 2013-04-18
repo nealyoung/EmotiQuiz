@@ -28,12 +28,6 @@
 		0EF5BAEF171F1D9D00973152 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEA171F1D9C00973152 /* Default.png */; };
 		0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEB171F1D9C00973152 /* Default@2x.png */; };
 		0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */; };
-		0EF5BAFD171F1DA400973152 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF2171F1DA400973152 /* background.png */; };
-		0EF5BAFE171F1DA400973152 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF3171F1DA400973152 /* background@2x.png */; };
-		0EF5BAFF171F1DA400973152 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF4171F1DA400973152 /* navbar.png */; };
-		0EF5BB00171F1DA400973152 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF5171F1DA400973152 /* navbar@2x.png */; };
-		0EF5BB01171F1DA400973152 /* quiznavbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF6171F1DA400973152 /* quiznavbar.png */; };
-		0EF5BB02171F1DA400973152 /* quiznavbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF7171F1DA400973152 /* quiznavbar@2x.png */; };
 		0EF5BB03171F1DA400973152 /* TabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF8171F1DA400973152 /* TabBarBackground@2x.png */; };
 		0EF5BB04171F1DA400973152 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF9171F1DA400973152 /* stats.png */; };
 		0EF5BB05171F1DA400973152 /* stats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAFA171F1DA400973152 /* stats@2x.png */; };
@@ -53,8 +47,6 @@
 		0EF5BB24171F234900973152 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB23171F234900973152 /* happy.png */; };
 		0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB25171F31EE00973152 /* QuestionData.plist */; };
 		0EF5BB28171F4A5400973152 /* calm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB27171F4A5400973152 /* calm.jpg */; };
-		0EF5BB2B171F4D8100973152 /* NavigationBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB29171F4D8000973152 /* NavigationBarBackground.png */; };
-		0EF5BB2C171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB2A171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,12 +88,6 @@
 		0EF5BAEA171F1D9C00973152 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0EF5BAEB171F1D9C00973152 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0EF5BAF2171F1DA400973152 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		0EF5BAF3171F1DA400973152 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
-		0EF5BAF4171F1DA400973152 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
-		0EF5BAF5171F1DA400973152 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
-		0EF5BAF6171F1DA400973152 /* quiznavbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiznavbar.png; sourceTree = "<group>"; };
-		0EF5BAF7171F1DA400973152 /* quiznavbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiznavbar@2x.png"; sourceTree = "<group>"; };
 		0EF5BAF8171F1DA400973152 /* TabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarBackground@2x.png"; sourceTree = "<group>"; };
 		0EF5BAF9171F1DA400973152 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
 		0EF5BAFA171F1DA400973152 /* stats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stats@2x.png"; sourceTree = "<group>"; };
@@ -121,8 +107,6 @@
 		0EF5BB23171F234900973152 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 		0EF5BB25171F31EE00973152 /* QuestionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionData.plist; sourceTree = "<group>"; };
 		0EF5BB27171F4A5400973152 /* calm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calm.jpg; sourceTree = "<group>"; };
-		0EF5BB29171F4D8000973152 /* NavigationBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBarBackground.png; sourceTree = "<group>"; };
-		0EF5BB2A171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBarBackgroundBackup@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,19 +178,11 @@
 				087CB62E171F912600D5511F /* FlatBarButton@2x.png */,
 				0EF5BB23171F234900973152 /* happy.png */,
 				0EF5BB27171F4A5400973152 /* calm.jpg */,
-				0EF5BAF2171F1DA400973152 /* background.png */,
-				0EF5BAF3171F1DA400973152 /* background@2x.png */,
-				0EF5BAF4171F1DA400973152 /* navbar.png */,
-				0EF5BAF5171F1DA400973152 /* navbar@2x.png */,
-				0EF5BAF6171F1DA400973152 /* quiznavbar.png */,
-				0EF5BAF7171F1DA400973152 /* quiznavbar@2x.png */,
 				0EF5BAF8171F1DA400973152 /* TabBarBackground@2x.png */,
 				0EF5BAF9171F1DA400973152 /* stats.png */,
 				0EF5BAFA171F1DA400973152 /* stats@2x.png */,
 				0EF5BAFB171F1DA400973152 /* quiz.png */,
 				0EF5BAFC171F1DA400973152 /* quiz@2x.png */,
-				0EF5BB29171F4D8000973152 /* NavigationBarBackground.png */,
-				0EF5BB2A171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png */,
 				087CB621171F77BF00D5511F /* FlatNavBar@2x.png */,
 				087CB623171F78F400D5511F /* FlatTabBar@2x.png */,
 				0EF5BAE8171F1D9C00973152 /* Icon.png */,
@@ -335,12 +311,6 @@
 				0EF5BAEF171F1D9D00973152 /* Default.png in Resources */,
 				0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */,
 				0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */,
-				0EF5BAFD171F1DA400973152 /* background.png in Resources */,
-				0EF5BAFE171F1DA400973152 /* background@2x.png in Resources */,
-				0EF5BAFF171F1DA400973152 /* navbar.png in Resources */,
-				0EF5BB00171F1DA400973152 /* navbar@2x.png in Resources */,
-				0EF5BB01171F1DA400973152 /* quiznavbar.png in Resources */,
-				0EF5BB02171F1DA400973152 /* quiznavbar@2x.png in Resources */,
 				0EF5BB03171F1DA400973152 /* TabBarBackground@2x.png in Resources */,
 				0EF5BB04171F1DA400973152 /* stats.png in Resources */,
 				0EF5BB05171F1DA400973152 /* stats@2x.png in Resources */,
@@ -349,8 +319,6 @@
 				0EF5BB24171F234900973152 /* happy.png in Resources */,
 				0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */,
 				0EF5BB28171F4A5400973152 /* calm.jpg in Resources */,
-				0EF5BB2B171F4D8100973152 /* NavigationBarBackground.png in Resources */,
-				0EF5BB2C171F4D8100973152 /* NavigationBarBackgroundBackup@2x.png in Resources */,
 				087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */,
 				087CB624171F78F400D5511F /* FlatTabBar@2x.png in Resources */,
 				087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */,
