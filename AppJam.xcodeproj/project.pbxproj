@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB621171F77BF00D5511F /* FlatNavBar@2x.png */; };
 		087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB625171F80BF00D5511F /* Lato-Reg.ttf */; };
-		087CB62F171F912700D5511F /* FlatBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB62E171F912600D5511F /* FlatBarButton@2x.png */; };
-		087CB631171F994700D5511F /* FlatBarButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB630171F994700D5511F /* FlatBarButtonPressed@2x.png */; };
 		087CB633171F9C3E00D5511F /* FlatTabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */; };
+		087CB636171FA26700D5511F /* FlatBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB634171FA26700D5511F /* FlatBarButton@2x.png */; };
+		087CB637171FA26700D5511F /* FlatBarButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB635171FA26700D5511F /* FlatBarButtonPressed@2x.png */; };
+		087CB639171FA4B600D5511F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB638171FA4B600D5511F /* Lato-Bold.ttf */; };
+		087CB63B171FA55F00D5511F /* EmptyBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63A171FA55F00D5511F /* EmptyBarButton@2x.png */; };
+		087CB63D171FA97300D5511F /* angry-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63C171FA97200D5511F /* angry-4.jpg */; };
+		087CB640171FB05100D5511F /* angry-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63F171FB05000D5511F /* angry-7.jpg */; };
 		0EF5BAAA171F1C7700973152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAA9171F1C7700973152 /* UIKit.framework */; };
 		0EF5BAAC171F1C7700973152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAB171F1C7700973152 /* Foundation.framework */; };
 		0EF5BAAE171F1C7700973152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */; };
@@ -47,9 +51,13 @@
 /* Begin PBXFileReference section */
 		087CB621171F77BF00D5511F /* FlatNavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatNavBar@2x.png"; sourceTree = "<group>"; };
 		087CB625171F80BF00D5511F /* Lato-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Reg.ttf"; sourceTree = "<group>"; };
-		087CB62E171F912600D5511F /* FlatBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButton@2x.png"; sourceTree = "<group>"; };
-		087CB630171F994700D5511F /* FlatBarButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButtonPressed@2x.png"; sourceTree = "<group>"; };
 		087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatTabBar@2x.png"; sourceTree = "<group>"; };
+		087CB634171FA26700D5511F /* FlatBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButton@2x.png"; sourceTree = "<group>"; };
+		087CB635171FA26700D5511F /* FlatBarButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButtonPressed@2x.png"; sourceTree = "<group>"; };
+		087CB638171FA4B600D5511F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		087CB63A171FA55F00D5511F /* EmptyBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EmptyBarButton@2x.png"; sourceTree = "<group>"; };
+		087CB63C171FA97200D5511F /* angry-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-4.jpg"; sourceTree = "<group>"; };
+		087CB63F171FB05000D5511F /* angry-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-7.jpg"; sourceTree = "<group>"; };
 		0EF5BAA6171F1C7700973152 /* AppJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5BAA9171F1C7700973152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF5BAAB171F1C7700973152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +117,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		087CB63E171FA97D00D5511F /* Emotions */ = {
+			isa = PBXGroup;
+			children = (
+				087CB63F171FB05000D5511F /* angry-7.jpg */,
+				087CB63C171FA97200D5511F /* angry-4.jpg */,
+			);
+			name = Emotions;
+			sourceTree = "<group>";
+		};
 		0EF5BA9D171F1C7700973152 = {
 			isa = PBXGroup;
 			children = (
@@ -153,14 +170,17 @@
 		0EF5BAB0171F1C7700973152 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				087CB63E171FA97D00D5511F /* Emotions */,
 				0EF5BAB1171F1C7700973152 /* AppJam-Info.plist */,
 				0EF5BAB2171F1C7700973152 /* InfoPlist.strings */,
 				0EF5BAB5171F1C7700973152 /* main.m */,
 				0EF5BAB7171F1C7700973152 /* AppJam-Prefix.pch */,
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
 				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
-				087CB62E171F912600D5511F /* FlatBarButton@2x.png */,
-				087CB630171F994700D5511F /* FlatBarButtonPressed@2x.png */,
+				087CB638171FA4B600D5511F /* Lato-Bold.ttf */,
+				087CB63A171FA55F00D5511F /* EmptyBarButton@2x.png */,
+				087CB634171FA26700D5511F /* FlatBarButton@2x.png */,
+				087CB635171FA26700D5511F /* FlatBarButtonPressed@2x.png */,
 				087CB621171F77BF00D5511F /* FlatNavBar@2x.png */,
 				087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */,
 				0EF5BB23171F234900973152 /* happy.png */,
@@ -287,9 +307,13 @@
 				0EF5BB28171F4A5400973152 /* calm.jpg in Resources */,
 				087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */,
 				087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */,
-				087CB62F171F912700D5511F /* FlatBarButton@2x.png in Resources */,
-				087CB631171F994700D5511F /* FlatBarButtonPressed@2x.png in Resources */,
 				087CB633171F9C3E00D5511F /* FlatTabBar@2x.png in Resources */,
+				087CB636171FA26700D5511F /* FlatBarButton@2x.png in Resources */,
+				087CB637171FA26700D5511F /* FlatBarButtonPressed@2x.png in Resources */,
+				087CB639171FA4B600D5511F /* Lato-Bold.ttf in Resources */,
+				087CB63B171FA55F00D5511F /* EmptyBarButton@2x.png in Resources */,
+				087CB63D171FA97300D5511F /* angry-4.jpg in Resources */,
+				087CB640171FB05100D5511F /* angry-7.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

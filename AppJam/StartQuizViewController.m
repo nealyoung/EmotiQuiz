@@ -31,10 +31,8 @@
     //self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"background.png"]];
     //self.navigationBarTitle.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar.png"]];
     
-    
-    
-    [self.startQuizButton setColor:[UIColor colorWithRed:0.87 green:0.21 blue:0.18 alpha:1.0]];
-    self.startQuizButton.titleLabel.font = [UIFont fontWithName:@"Lato-Regular" size:29.0];
+    self.startQuizButton.color = [UIColor colorWithRed:.15 green:.64 blue:.31 alpha:1.0];
+    self.startQuizButton.titleLabel.font = [UIFont fontWithName:@"Lato-Bold" size:24.0];
 }
 
 - (void)didReceiveMemoryWarning {

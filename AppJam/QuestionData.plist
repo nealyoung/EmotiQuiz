@@ -8,23 +8,26 @@
 	</array>
 	<key>Proud</key>
 	<array>
+		<string>angry-7.jpg</string>
 		<string>happy.png</string>
 	</array>
 	<key>Worried</key>
 	<array>
+		<string>angry-7.jpg</string>
 		<string>happy.png</string>
 	</array>
 	<key>Curious</key>
 	<array>
-		<string>happy.png</string>
+		<string>angry-4.jpg</string>
 	</array>
 	<key>Angry</key>
 	<array>
-		<string>happy.png</string>
+		<string>angry-7.jpg</string>
+		<string>angry-4.jpg</string>
 	</array>
 	<key>Surprised</key>
 	<array>
-		<string>happy.png</string>
+		<string>angry-4.jpg</string>
 	</array>
 	<key>Calm</key>
 	<array>
@@ -32,15 +35,15 @@
 	</array>
 	<key>Excited</key>
 	<array>
-		<string>happy.png</string>
+		<string>calm.jpg</string>
 	</array>
 	<key>Sad</key>
 	<array>
-		<string>happy.png</string>
+		<string>calm.jpg</string>
 	</array>
 	<key>Happy</key>
 	<array>
-		<string>happy.png</string>
+		<string>angry-4.jpg</string>
 	</array>
 </dict>
 </plist>

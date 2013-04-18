@@ -40,15 +40,17 @@
     self.view.backgroundColor = [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0];
     
     // Set the color of the answer buttons
-    self.answer0.color = [UIColor colorWithRed:.27 green:.27 blue:.27 alpha:1.0];
-    self.answer1.color = [UIColor colorWithRed:.27 green:.27 blue:.27 alpha:1.0];
-    self.answer2.color = [UIColor colorWithRed:.27 green:.27 blue:.27 alpha:1.0];
-    self.answer3.color = [UIColor colorWithRed:.27 green:.27 blue:.27 alpha:1.0];
+    self.answer0.color = [UIColor colorWithRed:.15 green:.64 blue:.31 alpha:1.0];
+    self.answer1.color = [UIColor colorWithRed:.15 green:.64 blue:.31 alpha:1.0];
+    self.answer2.color = [UIColor colorWithRed:.15 green:.64 blue:.31 alpha:1.0];
+    self.answer3.color = [UIColor colorWithRed:.15 green:.64 blue:.31 alpha:1.0];
     
     // Set up the cancel button
-    UIBarButtonItem *cancel = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(dismissViewController)];
+    UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(dismissViewController)];
     
-    self.navigationItem.leftBarButtonItem = cancel;
+    [cancelButton setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys: [UIFont fontWithName:@"Lato-Regular" size:13.0], UITextAttributeFont, [NSValue valueWithUIOffset:UIOffsetMake(0, 0)], UITextAttributeTextShadowOffset, nil] forState:UIControlStateNormal];
+    
+    self.navigationItem.leftBarButtonItem = cancelButton;
     self.navigationItem.title = @"Quiz";
     
     NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:[self methodSignatureForSelector:@selector(updateTimer:)]];

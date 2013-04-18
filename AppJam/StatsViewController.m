@@ -30,9 +30,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationBarTitle.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar.png"]];
-    self.view.backgroundColor = [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0];
-    self.resetStatsButton.color = [UIColor colorWithRed:.85 green:.22 blue:.22 alpha:1.0];
+    self.resetStatsButton.color = [UIColor colorWithRed:0.87 green:0.21 blue:0.18 alpha:1.0];
+    self.resetStatsButton.titleLabel.font = [UIFont fontWithName:@"Lato-Bold" size:18.0];
     
     [self reloadStats];
 }

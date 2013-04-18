@@ -48,14 +48,10 @@
 						<reference key="NSNextKeyView" ref="102457474"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSColor" key="IBUITintColor">
-							<int key="NSColorSpace">2</int>
-							<bytes key="NSRGB">MC4yMTk2MDc4NDMxIDAuMjE5NjA3ODQzMSAwLjIxOTYwNzg0MzEAA</bytes>
-						</object>
 						<array key="IBUIItems">
 							<object class="IBUINavigationItem" id="143731651">
 								<reference key="IBUINavigationBar" ref="732217134"/>
-								<string key="IBUITitle">Fabflix</string>
+								<string key="IBUITitle">EmotiQuiz</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
 						</array>
@@ -74,7 +70,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Statistics</string>
-						<object class="NSColor" key="IBUITextColor" id="978446584">
+						<object class="NSColor" key="IBUITextColor" id="910759760">
 							<int key="NSColorSpace">2</int>
 							<bytes key="NSRGB">MC4xNzI1NDkwMjQyIDAuMjQzMTM3MjcwMiAwLjMxMzcyNTUwMTMAA</bytes>
 						</object>
@@ -107,7 +103,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Quizzes Taken: 14</string>
-						<reference key="IBUITextColor" ref="978446584"/>
+						<reference key="IBUITextColor" ref="910759760"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<int key="IBUINumberOfLines">12</int>
@@ -139,7 +135,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Correct Answers: 33</string>
-						<reference key="IBUITextColor" ref="978446584"/>
+						<reference key="IBUITextColor" ref="910759760"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<int key="IBUINumberOfLines">12</int>
@@ -162,7 +158,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Incorrect Answers: 44</string>
-						<reference key="IBUITextColor" ref="978446584"/>
+						<reference key="IBUITextColor" ref="910759760"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<int key="IBUINumberOfLines">12</int>
@@ -185,7 +181,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Time Spent: 490.3 seconds</string>
-						<reference key="IBUITextColor" ref="978446584"/>
+						<reference key="IBUITextColor" ref="910759760"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<int key="IBUINumberOfLines">12</int>
@@ -200,6 +196,7 @@
 						<string key="NSFrame">{{74, 436}, {172, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -211,7 +208,7 @@
 							<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 						</object>
 						<string key="IBUINormalTitle">Reset Stats</string>
-						<object class="NSColor" key="IBUIHighlightedTitleColor" id="20939642">
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="389563114">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
@@ -249,7 +246,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Answers: 77</string>
-						<reference key="IBUITextColor" ref="978446584"/>
+						<reference key="IBUITextColor" ref="910759760"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<int key="IBUINumberOfLines">12</int>
@@ -272,7 +269,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Time per Question: 4.9 seconds</string>
-						<reference key="IBUITextColor" ref="978446584"/>
+						<reference key="IBUITextColor" ref="910759760"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
 						<int key="IBUINumberOfLines">12</int>
@@ -286,7 +283,7 @@
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="732217134"/>
-				<reference key="IBUIBackgroundColor" ref="20939642"/>
+				<reference key="IBUIBackgroundColor" ref="389563114"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<object class="IBUIScreenMetrics" key="IBUISimulatedDestinationMetrics">

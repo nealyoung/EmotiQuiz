@@ -56,8 +56,8 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 						</object>
-						<string key="IBUINormalTitle">Start Quiz</string>
-						<object class="NSColor" key="IBUIHighlightedTitleColor" id="868439700">
+						<string key="IBUINormalTitle">Start</string>
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="927884983">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
@@ -90,14 +90,10 @@
 						<reference key="NSNextKeyView" ref="437478774"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSColor" key="IBUITintColor">
-							<int key="NSColorSpace">2</int>
-							<bytes key="NSRGB">MC4yMTk2MDc4NDMxIDAuMjE5NjA3ODQzMSAwLjIxOTYwNzg0MzEAA</bytes>
-						</object>
 						<array key="IBUIItems">
 							<object class="IBUINavigationItem" id="333792">
 								<reference key="IBUINavigationBar" ref="1072726133"/>
-								<string key="IBUITitle">Autism AppJam</string>
+								<string key="IBUITitle">EmotiQuiz</string>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
 						</array>
@@ -236,7 +232,7 @@
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="1072726133"/>
-				<reference key="IBUIBackgroundColor" ref="868439700"/>
+				<reference key="IBUIBackgroundColor" ref="927884983"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<object class="IBUIScreenMetrics" key="IBUISimulatedDestinationMetrics">
@@ -443,7 +439,7 @@
 								<float key="scoringTypeFloat">29</float>
 								<int key="contentType">3</int>
 							</object>
-							<object class="IBNSLayoutConstraint" id="217051976">
+							<object class="IBNSLayoutConstraint" id="207640154">
 								<reference key="firstItem" ref="191373211"/>
 								<int key="firstAttribute">6</int>
 								<int key="relation">0</int>
@@ -814,7 +810,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">144</int>
-						<reference key="object" ref="217051976"/>
+						<reference key="object" ref="207640154"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -839,7 +835,7 @@
 					<reference ref="204032038"/>
 					<reference ref="921863106"/>
 					<reference ref="1041708010"/>
-					<reference ref="217051976"/>
+					<reference ref="207640154"/>
 					<reference ref="220650596"/>
 					<reference ref="847962231"/>
 					<reference ref="1071586833"/>
