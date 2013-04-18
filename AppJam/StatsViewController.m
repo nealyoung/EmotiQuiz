@@ -22,6 +22,8 @@
     
     if (self) {
         self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Stats" image:[UIImage imageNamed:@"stats.png"] tag:1];
+        [self.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0], UITextAttributeTextColor, [UIFont fontWithName:@"Lato-Bold" size:12.0], UITextAttributeFont,nil] forState:UIControlStateNormal];
+        [self.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"StatsSelected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"StatsUnselected.png"]];
     }
     
     return self;
@@ -29,6 +31,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0];
     
     self.resetStatsButton.color = [UIColor colorWithRed:0.87 green:0.21 blue:0.18 alpha:1.0];
     self.resetStatsButton.titleLabel.font = [UIFont fontWithName:@"Lato-Bold" size:18.0];

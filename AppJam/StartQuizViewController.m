@@ -19,6 +19,8 @@
     
     if (self) {
         self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Quiz" image:[UIImage imageNamed:@"quiz.png"] tag:0];
+        [self.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0], UITextAttributeTextColor, [UIFont fontWithName:@"Lato-Bold" size:12.0], UITextAttributeFont,nil] forState:UIControlStateNormal];
+        [self.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"QuizSelected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"QuizUnselected.png"]];
     }
     
     return self;
@@ -28,8 +30,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0];
-    //self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"background.png"]];
-    //self.navigationBarTitle.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navbar.png"]];
     
     self.startQuizButton.color = [UIColor colorWithRed:.15 green:.64 blue:.31 alpha:1.0];
     self.startQuizButton.titleLabel.font = [UIFont fontWithName:@"Lato-Bold" size:24.0];

@@ -36,6 +36,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.autoresizesSubviews = YES;
+    self.questionImage.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    
     // Set the view's background pattern
     self.view.backgroundColor = [UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0];
     
@@ -122,10 +125,10 @@
     } else {
         self.answerLabel.textColor = [UIColor redColor];
         NSString *correctAnswer = [[quiz getAnswers] objectAtIndex:[quiz getAnswerIndex]];
-        self.answerLabel.text = [NSString stringWithFormat:@"Correct Answer: %@", correctAnswer];
+        self.answerLabel.text = [NSString stringWithFormat:@"The person was %@", [correctAnswer lowercaseString]];
     }
     
-    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", quiz.numCorrect];
+    self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", quiz.numCorrect * 10];
     
     [self loadNextQuestion];
 }

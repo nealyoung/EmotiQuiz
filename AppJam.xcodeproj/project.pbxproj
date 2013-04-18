@@ -13,9 +13,17 @@
 		087CB636171FA26700D5511F /* FlatBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB634171FA26700D5511F /* FlatBarButton@2x.png */; };
 		087CB637171FA26700D5511F /* FlatBarButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB635171FA26700D5511F /* FlatBarButtonPressed@2x.png */; };
 		087CB639171FA4B600D5511F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB638171FA4B600D5511F /* Lato-Bold.ttf */; };
-		087CB63B171FA55F00D5511F /* EmptyBarButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63A171FA55F00D5511F /* EmptyBarButton@2x.png */; };
+		087CB63B171FA55F00D5511F /* Empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63A171FA55F00D5511F /* Empty@2x.png */; };
 		087CB63D171FA97300D5511F /* angry-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63C171FA97200D5511F /* angry-4.jpg */; };
 		087CB640171FB05100D5511F /* angry-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63F171FB05000D5511F /* angry-7.jpg */; };
+		087CB64D172065D300D5511F /* StatsUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB649172065BD00D5511F /* StatsUnselected.png */; };
+		087CB64E172065D300D5511F /* StatsUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB64A172065BE00D5511F /* StatsUnselected@2x.png */; };
+		087CB64F172065D300D5511F /* StatsSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB64B172065C300D5511F /* StatsSelected.png */; };
+		087CB650172065D300D5511F /* StatsSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB64C172065CA00D5511F /* StatsSelected@2x.png */; };
+		08E1F27F1720660C0086B160 /* QuizSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F27D1720660C0086B160 /* QuizSelected.png */; };
+		08E1F2801720660C0086B160 /* QuizSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F27E1720660C0086B160 /* QuizSelected@2x.png */; };
+		08E1F2871720670F0086B160 /* QuizUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F2851720670F0086B160 /* QuizUnselected.png */; };
+		08E1F2881720670F0086B160 /* QuizUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F2861720670F0086B160 /* QuizUnselected@2x.png */; };
 		0EF5BAAA171F1C7700973152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAA9171F1C7700973152 /* UIKit.framework */; };
 		0EF5BAAC171F1C7700973152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAB171F1C7700973152 /* Foundation.framework */; };
 		0EF5BAAE171F1C7700973152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */; };
@@ -33,10 +41,6 @@
 		0EF5BAEF171F1D9D00973152 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEA171F1D9C00973152 /* Default.png */; };
 		0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEB171F1D9C00973152 /* Default@2x.png */; };
 		0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */; };
-		0EF5BB04171F1DA400973152 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAF9171F1DA400973152 /* stats.png */; };
-		0EF5BB05171F1DA400973152 /* stats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAFA171F1DA400973152 /* stats@2x.png */; };
-		0EF5BB06171F1DA400973152 /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAFB171F1DA400973152 /* quiz.png */; };
-		0EF5BB07171F1DA400973152 /* quiz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAFC171F1DA400973152 /* quiz@2x.png */; };
 		0EF5BB18171F1DDF00973152 /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BACD171F1D2C00973152 /* BButton.m */; };
 		0EF5BB19171F1DDF00973152 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BACF171F1D2C00973152 /* Quiz.m */; };
 		0EF5BB1A171F1DDF00973152 /* QuizQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BAD1171F1D2C00973152 /* QuizQuestion.m */; };
@@ -55,9 +59,17 @@
 		087CB634171FA26700D5511F /* FlatBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButton@2x.png"; sourceTree = "<group>"; };
 		087CB635171FA26700D5511F /* FlatBarButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatBarButtonPressed@2x.png"; sourceTree = "<group>"; };
 		087CB638171FA4B600D5511F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
-		087CB63A171FA55F00D5511F /* EmptyBarButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EmptyBarButton@2x.png"; sourceTree = "<group>"; };
+		087CB63A171FA55F00D5511F /* Empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empty@2x.png"; sourceTree = "<group>"; };
 		087CB63C171FA97200D5511F /* angry-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-4.jpg"; sourceTree = "<group>"; };
 		087CB63F171FB05000D5511F /* angry-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-7.jpg"; sourceTree = "<group>"; };
+		087CB649172065BD00D5511F /* StatsUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatsUnselected.png; sourceTree = "<group>"; };
+		087CB64A172065BE00D5511F /* StatsUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatsUnselected@2x.png"; sourceTree = "<group>"; };
+		087CB64B172065C300D5511F /* StatsSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatsSelected.png; sourceTree = "<group>"; };
+		087CB64C172065CA00D5511F /* StatsSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatsSelected@2x.png"; sourceTree = "<group>"; };
+		08E1F27D1720660C0086B160 /* QuizSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizSelected.png; sourceTree = "<group>"; };
+		08E1F27E1720660C0086B160 /* QuizSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuizSelected@2x.png"; sourceTree = "<group>"; };
+		08E1F2851720670F0086B160 /* QuizUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizUnselected.png; sourceTree = "<group>"; };
+		08E1F2861720670F0086B160 /* QuizUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuizUnselected@2x.png"; sourceTree = "<group>"; };
 		0EF5BAA6171F1C7700973152 /* AppJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5BAA9171F1C7700973152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF5BAAB171F1C7700973152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,10 +104,6 @@
 		0EF5BAEA171F1D9C00973152 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0EF5BAEB171F1D9C00973152 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0EF5BAF9171F1DA400973152 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
-		0EF5BAFA171F1DA400973152 /* stats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stats@2x.png"; sourceTree = "<group>"; };
-		0EF5BAFB171F1DA400973152 /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
-		0EF5BAFC171F1DA400973152 /* quiz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz@2x.png"; sourceTree = "<group>"; };
 		0EF5BB1D171F1E0600973152 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		0EF5BB23171F234900973152 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 		0EF5BB25171F31EE00973152 /* QuestionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionData.plist; sourceTree = "<group>"; };
@@ -178,17 +186,21 @@
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
 				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
 				087CB638171FA4B600D5511F /* Lato-Bold.ttf */,
-				087CB63A171FA55F00D5511F /* EmptyBarButton@2x.png */,
+				087CB63A171FA55F00D5511F /* Empty@2x.png */,
 				087CB634171FA26700D5511F /* FlatBarButton@2x.png */,
 				087CB635171FA26700D5511F /* FlatBarButtonPressed@2x.png */,
 				087CB621171F77BF00D5511F /* FlatNavBar@2x.png */,
 				087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */,
 				0EF5BB23171F234900973152 /* happy.png */,
 				0EF5BB27171F4A5400973152 /* calm.jpg */,
-				0EF5BAF9171F1DA400973152 /* stats.png */,
-				0EF5BAFA171F1DA400973152 /* stats@2x.png */,
-				0EF5BAFB171F1DA400973152 /* quiz.png */,
-				0EF5BAFC171F1DA400973152 /* quiz@2x.png */,
+				087CB649172065BD00D5511F /* StatsUnselected.png */,
+				087CB64A172065BE00D5511F /* StatsUnselected@2x.png */,
+				087CB64B172065C300D5511F /* StatsSelected.png */,
+				087CB64C172065CA00D5511F /* StatsSelected@2x.png */,
+				08E1F2851720670F0086B160 /* QuizUnselected.png */,
+				08E1F2861720670F0086B160 /* QuizUnselected@2x.png */,
+				08E1F27D1720660C0086B160 /* QuizSelected.png */,
+				08E1F27E1720660C0086B160 /* QuizSelected@2x.png */,
 				0EF5BAE8171F1D9C00973152 /* Icon.png */,
 				0EF5BAE9171F1D9C00973152 /* Icon@2x.png */,
 				0EF5BAEA171F1D9C00973152 /* Default.png */,
@@ -298,10 +310,6 @@
 				0EF5BAEF171F1D9D00973152 /* Default.png in Resources */,
 				0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */,
 				0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */,
-				0EF5BB04171F1DA400973152 /* stats.png in Resources */,
-				0EF5BB05171F1DA400973152 /* stats@2x.png in Resources */,
-				0EF5BB06171F1DA400973152 /* quiz.png in Resources */,
-				0EF5BB07171F1DA400973152 /* quiz@2x.png in Resources */,
 				0EF5BB24171F234900973152 /* happy.png in Resources */,
 				0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */,
 				0EF5BB28171F4A5400973152 /* calm.jpg in Resources */,
@@ -311,9 +319,17 @@
 				087CB636171FA26700D5511F /* FlatBarButton@2x.png in Resources */,
 				087CB637171FA26700D5511F /* FlatBarButtonPressed@2x.png in Resources */,
 				087CB639171FA4B600D5511F /* Lato-Bold.ttf in Resources */,
-				087CB63B171FA55F00D5511F /* EmptyBarButton@2x.png in Resources */,
+				087CB63B171FA55F00D5511F /* Empty@2x.png in Resources */,
 				087CB63D171FA97300D5511F /* angry-4.jpg in Resources */,
 				087CB640171FB05100D5511F /* angry-7.jpg in Resources */,
+				087CB64D172065D300D5511F /* StatsUnselected.png in Resources */,
+				087CB64E172065D300D5511F /* StatsUnselected@2x.png in Resources */,
+				087CB64F172065D300D5511F /* StatsSelected.png in Resources */,
+				087CB650172065D300D5511F /* StatsSelected@2x.png in Resources */,
+				08E1F27F1720660C0086B160 /* QuizSelected.png in Resources */,
+				08E1F2801720660C0086B160 /* QuizSelected@2x.png in Resources */,
+				08E1F2871720670F0086B160 /* QuizUnselected.png in Resources */,
+				08E1F2881720670F0086B160 /* QuizUnselected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

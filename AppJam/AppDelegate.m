@@ -12,9 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"FlatTabBar.png"] forBarMetrics:UIBarMetricsDefault];
-    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor, [UIFont fontWithName:@"Lato-Bold" size:21.0], UITextAttributeFont,nil]];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.93 green:0.94 blue:0.95 alpha:1.0], UITextAttributeTextColor, [UIFont fontWithName:@"Lato-Bold" size:21.0], UITextAttributeFont,nil]];
     
-    [[UIBarButtonItem appearance] setBackgroundImage:[UIImage imageNamed:@"EmptyBarButton.png"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    [[UIBarButtonItem appearance] setBackgroundImage:[UIImage imageNamed:@"Empty.png"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Lato-Regular" size:19]];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -28,6 +28,7 @@
     
     [self.tabController setViewControllers:tabs];
     self.tabController.tabBar.backgroundImage = [UIImage imageNamed:@"FlatTabBar.png"];
+    self.tabController.tabBar.selectionIndicatorImage = [UIImage imageNamed:@"Empty.png"];
     self.tabController.tabBar.selectedImageTintColor = [UIColor colorWithRed:.82 green:.82 blue:.82 alpha:1.0];
     
     self.window.rootViewController = self.tabController;
