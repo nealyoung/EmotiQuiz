@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>achievementQuiz1</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>First Step</string>
+		<key>description</key>
+		<string>Beat a Quiz</string>
+		<key>type</key>
+		<string>quizzesTaken</string>
+		<key>condition</key>
+		<integer>1</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementQuiz2</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Double Digits</string>
+		<key>description</key>
+		<string>Beat 10 Quizzes</string>
+		<key>type</key>
+		<string>quizzesTaken</string>
+		<key>condition</key>
+		<integer>10</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementQuiz3</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Quiz Master</string>
+		<key>description</key>
+		<string>Beat 100 Quizzes</string>
+		<key>type</key>
+		<string>quizzesTaken</string>
+		<key>condition</key>
+		<integer>100</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementScore1</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Grand Score</string>
+		<key>description</key>
+		<string>Get 1000 Points</string>
+		<key>type</key>
+		<string>totalScore</string>
+		<key>condition</key>
+		<integer>1000</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementScore2</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Grander Score</string>
+		<key>description</key>
+		<string>Get 10000 Points</string>
+		<key>type</key>
+		<string>totalScore</string>
+		<key>condition</key>
+		<integer>10000</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementScore3</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Grand Master</string>
+		<key>description</key>
+		<string>Got 100000 Points</string>
+		<key>type</key>
+		<string>totalScore</string>
+		<key>condition</key>
+		<integer>100000</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementHappy</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Happy Hearts</string>
+		<key>description</key>
+		<string>Get Happy Correct 50 Times</string>
+		<key>type</key>
+		<string>happyScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementSad</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Don&apos;t Be Sad!</string>
+		<key>description</key>
+		<string>Get Sad Correct 50 Times</string>
+		<key>type</key>
+		<string>sadScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementProud</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Loud and Proud</string>
+		<key>description</key>
+		<string>Get Proud Correct 50 Times</string>
+		<key>type</key>
+		<string>proudScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementCalm</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Remain Calm</string>
+		<key>description</key>
+		<string>Get Calm Correct 50 Times</string>
+		<key>type</key>
+		<string>calmScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementAngry</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Angry Eyes</string>
+		<key>description</key>
+		<string>Get Angry Correct 50 Times</string>
+		<key>type</key>
+		<string>angryScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementWorried</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>You Look Worried</string>
+		<key>description</key>
+		<string>Get Worried Correct 50 Times</string>
+		<key>type</key>
+		<string>worriedScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementExcited</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Exciting Times</string>
+		<key>description</key>
+		<string>Get Excited Correct 50 Times</string>
+		<key>type</key>
+		<string>excitedScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementCurious</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Curiouser and Curiouser</string>
+		<key>description</key>
+		<string>Get Curious Correct 50 Times</string>
+		<key>type</key>
+		<string>curiousScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementSurprised</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Surprising Developments</string>
+		<key>description</key>
+		<string>Get Surprised Correct 50 Times</string>
+		<key>type</key>
+		<string>surprisedScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementBored</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Never Bored</string>
+		<key>description</key>
+		<string>Get Bored Correct 50 Times</string>
+		<key>type</key>
+		<string>boredScore</string>
+		<key>condition</key>
+		<integer>50</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementTime1</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Play Time!</string>
+		<key>description</key>
+		<string>Played for Half an Hour</string>
+		<key>type</key>
+		<string>totalTime</string>
+		<key>condition</key>
+		<integer>1800</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementTime2</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Look at the Time!</string>
+		<key>description</key>
+		<string>Played for an Hour</string>
+		<key>type</key>
+		<string>totalTime</string>
+		<key>condition</key>
+		<integer>3600</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementTime3</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Time Master</string>
+		<key>description</key>
+		<string>Played for 3 Hours</string>
+		<key>type</key>
+		<string>totalTime</string>
+		<key>condition</key>
+		<real>10800</real>
+		<key>image</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

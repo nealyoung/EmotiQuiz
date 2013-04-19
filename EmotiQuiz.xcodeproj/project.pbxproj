@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086CFD3E1721B48800E62844 /* achievements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD3D1721B48800E62844 /* achievements.plist */; };
 		087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB621171F77BF00D5511F /* FlatNavBar@2x.png */; };
 		087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB625171F80BF00D5511F /* Lato-Reg.ttf */; };
 		087CB633171F9C3E00D5511F /* FlatTabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */; };
@@ -60,6 +61,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		086CFD3D1721B48800E62844 /* achievements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = achievements.plist; sourceTree = "<group>"; };
 		087CB621171F77BF00D5511F /* FlatNavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatNavBar@2x.png"; sourceTree = "<group>"; };
 		087CB625171F80BF00D5511F /* Lato-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Reg.ttf"; sourceTree = "<group>"; };
 		087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatTabBar@2x.png"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				0EF5BAB5171F1C7700973152 /* main.m */,
 				0EF5BAB7171F1C7700973152 /* EmotiQuiz-Prefix.pch */,
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
+				086CFD3D1721B48800E62844 /* achievements.plist */,
 				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
 				087CB638171FA4B600D5511F /* Lato-Bold.ttf */,
 				08EA6B0117210DEB002BC32D /* SampleAchievement@2x.png */,
@@ -368,6 +371,7 @@
 				08EA6AFF17210C90002BC32D /* TrophyUnselected.png in Resources */,
 				08EA6B0017210C90002BC32D /* TrophyUnselected@2x.png in Resources */,
 				08EA6B0217210DEC002BC32D /* SampleAchievement@2x.png in Resources */,
+				086CFD3E1721B48800E62844 /* achievements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -105,6 +105,8 @@
     [prefs removeObjectForKey:@"totalAnswers"];
     [prefs removeObjectForKey:@"correctAnswers"];
     [prefs removeObjectForKey:@"incorrectAnswers"];
+    [prefs removeObjectForKey:@"totalScore"];
+    [prefs removeObjectForKey:@"userAchievements"];
     
     [self reloadStats];
 }
