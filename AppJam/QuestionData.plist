@@ -2,24 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Bored</key>
-	<array>
-		<string>happy.png</string>
-	</array>
-	<key>Proud</key>
-	<array>
-		<string>angry-7.jpg</string>
-		<string>happy.png</string>
-	</array>
-	<key>Worried</key>
-	<array>
-		<string>angry-7.jpg</string>
-		<string>happy.png</string>
-	</array>
-	<key>Curious</key>
-	<array>
-		<string>angry-4.jpg</string>
-	</array>
 	<key>Angry</key>
 	<array>
 		<string>angry-0.jpg</string>
@@ -35,25 +17,93 @@
 		<string>angry-10.jpg</string>
 		<string>angry-11.jpg</string>
 	</array>
-	<key>Surprised</key>
+	<key>Bored</key>
 	<array>
-		<string>angry-4.jpg</string>
+		<string>bored-0.jpg</string>
+		<string>bored-1.jpg</string>
+		<string>bored-2.jpg</string>
+		<string>bored-3.jpg</string>
+		<string>bored-4.jpg</string>
+		<string>bored-5.jpg</string>
+		<string>bored-6.jpg</string>
+		<string>bored-7.jpg</string>
+		<string>bored-8.jpg</string>
 	</array>
 	<key>Calm</key>
 	<array>
-		<string>calm.jpg</string>
+		<string>calm-0.jpg</string>
+		<string>calm-1.jpg</string>
+		<string>calm-2.jpg</string>
+		<string>calm-3.jpg</string>
+	</array>
+	<key>Curious</key>
+	<array>
+		<string>curious-0.jpg</string>
+		<string>curious-1.jpg</string>
 	</array>
 	<key>Excited</key>
 	<array>
-		<string>calm.jpg</string>
-	</array>
-	<key>Sad</key>
-	<array>
-		<string>calm.jpg</string>
+		<string>excited-0.jpg</string>
+		<string>excited-1.jpg</string>
+		<string>excited-2.jpg</string>
+		<string>excited-3.jpg</string>
+		<string>excited-4.jpg</string>
 	</array>
 	<key>Happy</key>
 	<array>
-		<string>angry-4.jpg</string>
+		<string>happy-0.jpg</string>
+		<string>happy-1.jpg</string>
+		<string>happy-2.jpg</string>
+		<string>happy-3.jpg</string>
+		<string>happy-4.jpg</string>
+		<string>happy-5.jpg</string>
+		<string>happy-6.jpg</string>
+		<string>happy-7.jpg</string>
+		<string>happy-8.jpg</string>
+		<string>happy-9.jpg</string>
+	</array>
+	<key>Proud</key>
+	<array>
+		<string>proud-0.jpg</string>
+		<string>proud-1.jpg</string>
+		<string>proud-2.jpg</string>
+		<string>proud-3.jpg</string>
+		<string>proud-4.jpg</string>
+		<string>proud-5.jpg</string>
+	</array>
+	<key>Sad</key>
+	<array>
+		<string>sad-0.jpg</string>
+		<string>sad-1.jpg</string>
+		<string>sad-2.jpg</string>
+		<string>sad-3.jpg</string>
+		<string>sad-4.jpg</string>
+		<string>sad-5.jpg</string>
+		<string>sad-6.jpg</string>
+		<string>sad-7.jpg</string>
+		<string>sad-8.jpg</string>
+		<string>sad-9.jpg</string>
+	</array>
+	<key>Surprised</key>
+	<array>
+		<string>surprised-0.jpg</string>
+		<string>surprised-1.jpg</string>
+		<string>surprised-2.jpg</string>
+		<string>surprised-3.jpg</string>
+		<string>surprised-4.jpg</string>
+		<string>surprised-5.jpg</string>
+		<string>surprised-6.jpg</string>
+		<string>surprised-7.jpg</string>
+		<string>surprised-8.jpg</string>
+	</array>
+	<key>Worried</key>
+	<array>
+		<string>worried-0.jpg</string>
+		<string>worried-1.jpg</string>
+		<string>worried-2.jpg</string>
+		<string>worried-3.jpg</string>
+		<string>worried-4.jpg</string>
+		<string>worried-5.jpg</string>
 	</array>
 </dict>
 </plist>
