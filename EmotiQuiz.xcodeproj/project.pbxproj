@@ -26,7 +26,15 @@
 		08E1F2881720670F0086B160 /* QuizUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F2861720670F0086B160 /* QuizUnselected@2x.png */; };
 		08EA6AED1720F943002BC32D /* AchievementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EA6AEB1720F943002BC32D /* AchievementsViewController.m */; };
 		08EA6AEE1720F943002BC32D /* AchievementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AEC1720F943002BC32D /* AchievementsViewController.xib */; };
-		08EA6AF0172104ED002BC32D /* Achievement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AEF172104ED002BC32D /* Achievement@2x.png */; };
+		08EA6AF317210A0C002BC32D /* Achievements.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AF117210A0C002BC32D /* Achievements.png */; };
+		08EA6AF417210A0C002BC32D /* Achievements@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AF217210A0C002BC32D /* Achievements@2x.png */; };
+		08EA6AF717210A5C002BC32D /* Trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AF517210A5C002BC32D /* Trophy.png */; };
+		08EA6AF817210A5C002BC32D /* Trophy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AF617210A5C002BC32D /* Trophy@2x.png */; };
+		08EA6AFD17210C90002BC32D /* TrophySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AF917210C90002BC32D /* TrophySelected.png */; };
+		08EA6AFE17210C90002BC32D /* TrophySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AFA17210C90002BC32D /* TrophySelected@2x.png */; };
+		08EA6AFF17210C90002BC32D /* TrophyUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AFB17210C90002BC32D /* TrophyUnselected.png */; };
+		08EA6B0017210C90002BC32D /* TrophyUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AFC17210C90002BC32D /* TrophyUnselected@2x.png */; };
+		08EA6B0217210DEC002BC32D /* SampleAchievement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6B0117210DEB002BC32D /* SampleAchievement@2x.png */; };
 		0EF5BAAA171F1C7700973152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAA9171F1C7700973152 /* UIKit.framework */; };
 		0EF5BAAC171F1C7700973152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAB171F1C7700973152 /* Foundation.framework */; };
 		0EF5BAAE171F1C7700973152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */; };
@@ -76,7 +84,15 @@
 		08EA6AEA1720F943002BC32D /* AchievementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementsViewController.h; sourceTree = "<group>"; };
 		08EA6AEB1720F943002BC32D /* AchievementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementsViewController.m; sourceTree = "<group>"; };
 		08EA6AEC1720F943002BC32D /* AchievementsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementsViewController.xib; sourceTree = "<group>"; };
-		08EA6AEF172104ED002BC32D /* Achievement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Achievement@2x.png"; sourceTree = "<group>"; };
+		08EA6AF117210A0C002BC32D /* Achievements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Achievements.png; sourceTree = "<group>"; };
+		08EA6AF217210A0C002BC32D /* Achievements@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Achievements@2x.png"; sourceTree = "<group>"; };
+		08EA6AF517210A5C002BC32D /* Trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trophy.png; sourceTree = "<group>"; };
+		08EA6AF617210A5C002BC32D /* Trophy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trophy@2x.png"; sourceTree = "<group>"; };
+		08EA6AF917210C90002BC32D /* TrophySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrophySelected.png; sourceTree = "<group>"; };
+		08EA6AFA17210C90002BC32D /* TrophySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrophySelected@2x.png"; sourceTree = "<group>"; };
+		08EA6AFB17210C90002BC32D /* TrophyUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrophyUnselected.png; sourceTree = "<group>"; };
+		08EA6AFC17210C90002BC32D /* TrophyUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrophyUnselected@2x.png"; sourceTree = "<group>"; };
+		08EA6B0117210DEB002BC32D /* SampleAchievement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SampleAchievement@2x.png"; sourceTree = "<group>"; };
 		0EF5BAA6171F1C7700973152 /* EmotiQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotiQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5BAA9171F1C7700973152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF5BAAB171F1C7700973152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -185,7 +201,6 @@
 		0EF5BAB0171F1C7700973152 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				08EA6AEF172104ED002BC32D /* Achievement@2x.png */,
 				087CB63E171FA97D00D5511F /* Emotions */,
 				0EF5BAB1171F1C7700973152 /* EmotiQuiz-Info.plist */,
 				0EF5BAB2171F1C7700973152 /* InfoPlist.strings */,
@@ -194,6 +209,7 @@
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
 				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
 				087CB638171FA4B600D5511F /* Lato-Bold.ttf */,
+				08EA6B0117210DEB002BC32D /* SampleAchievement@2x.png */,
 				087CB63A171FA55F00D5511F /* Empty@2x.png */,
 				087CB634171FA26700D5511F /* FlatBarButton@2x.png */,
 				087CB635171FA26700D5511F /* FlatBarButtonPressed@2x.png */,
@@ -209,6 +225,14 @@
 				08E1F2861720670F0086B160 /* QuizUnselected@2x.png */,
 				08E1F27D1720660C0086B160 /* QuizSelected.png */,
 				08E1F27E1720660C0086B160 /* QuizSelected@2x.png */,
+				08EA6AF117210A0C002BC32D /* Achievements.png */,
+				08EA6AF217210A0C002BC32D /* Achievements@2x.png */,
+				08EA6AF517210A5C002BC32D /* Trophy.png */,
+				08EA6AF617210A5C002BC32D /* Trophy@2x.png */,
+				08EA6AF917210C90002BC32D /* TrophySelected.png */,
+				08EA6AFA17210C90002BC32D /* TrophySelected@2x.png */,
+				08EA6AFB17210C90002BC32D /* TrophyUnselected.png */,
+				08EA6AFC17210C90002BC32D /* TrophyUnselected@2x.png */,
 				0EF5BAE8171F1D9C00973152 /* Icon.png */,
 				0EF5BAE9171F1D9C00973152 /* Icon@2x.png */,
 				0EF5BAEA171F1D9C00973152 /* Default.png */,
@@ -342,7 +366,15 @@
 				08E1F2871720670F0086B160 /* QuizUnselected.png in Resources */,
 				08E1F2881720670F0086B160 /* QuizUnselected@2x.png in Resources */,
 				08EA6AEE1720F943002BC32D /* AchievementsViewController.xib in Resources */,
-				08EA6AF0172104ED002BC32D /* Achievement@2x.png in Resources */,
+				08EA6AF317210A0C002BC32D /* Achievements.png in Resources */,
+				08EA6AF417210A0C002BC32D /* Achievements@2x.png in Resources */,
+				08EA6AF717210A5C002BC32D /* Trophy.png in Resources */,
+				08EA6AF817210A5C002BC32D /* Trophy@2x.png in Resources */,
+				08EA6AFD17210C90002BC32D /* TrophySelected.png in Resources */,
+				08EA6AFE17210C90002BC32D /* TrophySelected@2x.png in Resources */,
+				08EA6AFF17210C90002BC32D /* TrophyUnselected.png in Resources */,
+				08EA6B0017210C90002BC32D /* TrophyUnselected@2x.png in Resources */,
+				08EA6B0217210DEC002BC32D /* SampleAchievement@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

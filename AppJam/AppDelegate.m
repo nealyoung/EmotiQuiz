@@ -20,12 +20,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     StartQuizViewController *quizView = [[StartQuizViewController alloc] initWithNibName:@"StartQuizViewController" bundle:nil];
-    StatsViewController *statsView = [[StatsViewController alloc] initWithNibName:@"StatsViewController" bundle:nil];
     UIViewController *achievementsView = [[AchievementsViewController alloc] initWithNibName:@"AchievementsViewController" bundle:nil];
+    StatsViewController *statsView = [[StatsViewController alloc] initWithNibName:@"StatsViewController" bundle:nil];
     
     self.tabController = [[UITabBarController alloc] init];
     
-    NSArray *tabs = [[NSArray alloc] initWithObjects: quizView, statsView, achievementsView, nil];
+    NSArray *tabs = [[NSArray alloc] initWithObjects: quizView, achievementsView, statsView, nil];
     
     [self.tabController setViewControllers:tabs];
     self.tabController.tabBar.backgroundImage = [UIImage imageNamed:@"FlatTabBar.png"];
