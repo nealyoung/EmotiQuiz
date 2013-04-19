@@ -12,6 +12,7 @@
 
 @interface StartQuizViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *instructionsLabel;
 @property (strong, nonatomic) IBOutlet BButton *startQuizButton;
 @property (strong, nonatomic) IBOutlet UINavigationItem *navigationBarTitle;
 @property (strong, nonatomic) IBOutlet UINavigationBar *navBar;

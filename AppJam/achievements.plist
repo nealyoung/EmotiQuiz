@@ -2,6 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>achievementTime1</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Play Time!</string>
+		<key>description</key>
+		<string>Played for Half an Hour</string>
+		<key>type</key>
+		<string>totalTime</string>
+		<key>condition</key>
+		<integer>1800</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementTime2</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Look at the Time!</string>
+		<key>description</key>
+		<string>Played for an Hour</string>
+		<key>type</key>
+		<string>totalTime</string>
+		<key>condition</key>
+		<integer>3600</integer>
+		<key>image</key>
+		<string></string>
+	</dict>
+	<key>achievementTime3</key>
+	<dict>
+		<key>progress</key>
+		<integer>0</integer>
+		<key>awarded</key>
+		<false/>
+		<key>title</key>
+		<string>Time Master</string>
+		<key>description</key>
+		<string>Played for 3 Hours</string>
+		<key>type</key>
+		<string>totalTime</string>
+		<key>condition</key>
+		<real>10800</real>
+		<key>image</key>
+		<string></string>
+	</dict>
 	<key>achievementQuiz1</key>
 	<dict>
 		<key>progress</key>
@@ -58,7 +109,7 @@
 		<key>progress</key>
 		<integer>0</integer>
 		<key>awarded</key>
-		<false/>
+		<true/>
 		<key>title</key>
 		<string>Grand Score</string>
 		<key>description</key>
@@ -75,7 +126,7 @@
 		<key>progress</key>
 		<integer>0</integer>
 		<key>awarded</key>
-		<false/>
+		<true/>
 		<key>title</key>
 		<string>Grander Score</string>
 		<key>description</key>
@@ -96,7 +147,7 @@
 		<key>title</key>
 		<string>Grand Master</string>
 		<key>description</key>
-		<string>Got 100000 Points</string>
+		<string>Get 100000 Points</string>
 		<key>type</key>
 		<string>totalScore</string>
 		<key>condition</key>
@@ -104,7 +155,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementHappy</key>
+	<key>achievementEmotionHappy</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -121,7 +172,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementSad</key>
+	<key>achievementEmotionSad</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -138,7 +189,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementProud</key>
+	<key>achievementEmotionProud</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -155,7 +206,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementCalm</key>
+	<key>achievementEmotionCalm</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -172,7 +223,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementAngry</key>
+	<key>achievementEmotionAngry</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -189,7 +240,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementWorried</key>
+	<key>achievementEmotionWorried</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -206,7 +257,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementExcited</key>
+	<key>achievementEmotionExcited</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -223,7 +274,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementCurious</key>
+	<key>achievementEmotionCurious</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -240,7 +291,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementSurprised</key>
+	<key>achievementEmotionSurprised</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -257,7 +308,7 @@
 		<key>image</key>
 		<string></string>
 	</dict>
-	<key>achievementBored</key>
+	<key>achievementEmotionBored</key>
 	<dict>
 		<key>progress</key>
 		<integer>0</integer>
@@ -271,57 +322,6 @@
 		<string>boredScore</string>
 		<key>condition</key>
 		<integer>50</integer>
-		<key>image</key>
-		<string></string>
-	</dict>
-	<key>achievementTime1</key>
-	<dict>
-		<key>progress</key>
-		<integer>0</integer>
-		<key>awarded</key>
-		<false/>
-		<key>title</key>
-		<string>Play Time!</string>
-		<key>description</key>
-		<string>Played for Half an Hour</string>
-		<key>type</key>
-		<string>totalTime</string>
-		<key>condition</key>
-		<integer>1800</integer>
-		<key>image</key>
-		<string></string>
-	</dict>
-	<key>achievementTime2</key>
-	<dict>
-		<key>progress</key>
-		<integer>0</integer>
-		<key>awarded</key>
-		<false/>
-		<key>title</key>
-		<string>Look at the Time!</string>
-		<key>description</key>
-		<string>Played for an Hour</string>
-		<key>type</key>
-		<string>totalTime</string>
-		<key>condition</key>
-		<integer>3600</integer>
-		<key>image</key>
-		<string></string>
-	</dict>
-	<key>achievementTime3</key>
-	<dict>
-		<key>progress</key>
-		<integer>0</integer>
-		<key>awarded</key>
-		<false/>
-		<key>title</key>
-		<string>Time Master</string>
-		<key>description</key>
-		<string>Played for 3 Hours</string>
-		<key>type</key>
-		<string>totalTime</string>
-		<key>condition</key>
-		<real>10800</real>
 		<key>image</key>
 		<string></string>
 	</dict>

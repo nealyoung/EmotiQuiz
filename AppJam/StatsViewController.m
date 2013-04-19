@@ -88,7 +88,7 @@
 // Reset button pressed
 - (IBAction)resetStats:(id)sender {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Confirm"
-                                                    message:@"Are you sure you want to reset your statistics?"
+                                                    message:@"Are you sure you want to reset your statistics and achievements?"
                                                    delegate:self
                                           cancelButtonTitle:@"Cancel"
                                           otherButtonTitles:@"Reset", nil];

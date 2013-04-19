@@ -33,6 +33,8 @@
     
     self.startQuizButton.color = [UIColor colorWithRed:.15 green:.64 blue:.31 alpha:1.0];
     self.startQuizButton.titleLabel.font = [UIFont fontWithName:@"Lato-Bold" size:24.0];
+    
+    self.instructionsLabel.text = @"1. Press the button below to start the quiz\n2. Identify the emotions displayed in the pictures\n3. The quiz lasts 3 minutes";
 }
 
 - (void)didReceiveMemoryWarning {

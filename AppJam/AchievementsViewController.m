@@ -36,6 +36,13 @@
 // Reload the list of achievements whenever the view appears so newly earned achievements are reflected
 - (void)viewDidAppear:(BOOL)animated {
     achievements = [[NSUserDefaults standardUserDefaults] dictionaryForKey:@"userAchievements"];
+    
+    if (achievements == nil) {
+        NSString *achievementsPath = [[NSBundle mainBundle] pathForResource:@"achievements" ofType:@"plist"];
+        achievements = [NSDictionary dictionaryWithContentsOfFile:achievementsPath];
+        [[NSUserDefaults standardUserDefaults] setObject:achievements forKey:@"userAchievements"];
+    }
+    
     [self.tableView reloadData];
 }
 
@@ -55,13 +62,28 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdentifier];
     }
     
-    cell.imageView.image = [UIImage imageNamed:@"SampleAchievement.png"];
+    NSArray *keys = [achievements allKeys];
     
-    cell.textLabel.text = @"First Steps";
+    // Alphabetically sort the array of keys so achievements appear in the correct order
+    keys = [keys sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+
+    NSString *achievementKey = keys[indexPath.row];
+    NSDictionary *achievement = achievements[achievementKey];
+    
+    BOOL awarded = [[achievement objectForKey:@"awarded"] boolValue];
+    
+    if (awarded) {
+        cell.imageView.image = [UIImage imageNamed:@"UnlockedAchievement.png"];
+        cell.detailTextLabel.text = achievement[@"description"];
+    } else {
+        cell.imageView.image = [UIImage imageNamed:@"LockedAchievement.png"];
+        cell.detailTextLabel.text = [@"Locked · " stringByAppendingString:achievement[@"description"]];
+    }
+    
+    cell.textLabel.text = achievement[@"title"];
     cell.textLabel.font = [UIFont fontWithName:@"Lato-Bold" size:19.0];
     cell.textLabel.textColor = [UIColor colorWithRed:0.13 green:0.18 blue:0.25 alpha:1.0];
     
-    cell.detailTextLabel.text = @"Locked · 42% Completed";
     cell.detailTextLabel.font = [UIFont fontWithName:@"Lato-Regular" size:14.0];
     cell.detailTextLabel.textColor = [UIColor colorWithRed:0.51 green:0.58 blue:0.58 alpha:1.0];
     
@@ -71,10 +93,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 17;
-    //return [achievements count];
+    return [achievements count];
 }
-
-#pragma mark - UITableViewDelegate
 
 @end

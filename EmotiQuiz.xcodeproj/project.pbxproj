@@ -8,13 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		086CFD3E1721B48800E62844 /* achievements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD3D1721B48800E62844 /* achievements.plist */; };
+		086CFD401721C32300E62844 /* UnlockedAchievement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD3F1721C32300E62844 /* UnlockedAchievement@2x.png */; };
+		086CFD441721C91C00E62844 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD431721C91B00E62844 /* Icon@2x.png */; };
+		086CFD511721CE1D00E62844 /* angry-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD451721CE1D00E62844 /* angry-0.jpg */; };
+		086CFD521721CE1D00E62844 /* angry-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD461721CE1D00E62844 /* angry-1.jpg */; };
+		086CFD531721CE1D00E62844 /* angry-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD471721CE1D00E62844 /* angry-2.jpg */; };
+		086CFD541721CE1D00E62844 /* angry-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD481721CE1D00E62844 /* angry-3.jpg */; };
+		086CFD551721CE1D00E62844 /* angry-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD491721CE1D00E62844 /* angry-4.jpg */; };
+		086CFD561721CE1D00E62844 /* angry-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD4A1721CE1D00E62844 /* angry-5.jpg */; };
+		086CFD571721CE1D00E62844 /* angry-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD4B1721CE1D00E62844 /* angry-6.jpg */; };
+		086CFD581721CE1D00E62844 /* angry-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD4C1721CE1D00E62844 /* angry-7.jpg */; };
+		086CFD591721CE1D00E62844 /* angry-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD4D1721CE1D00E62844 /* angry-8.jpg */; };
+		086CFD5A1721CE1D00E62844 /* angry-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD4E1721CE1D00E62844 /* angry-9.jpg */; };
+		086CFD5B1721CE1D00E62844 /* angry-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD4F1721CE1D00E62844 /* angry-10.jpg */; };
+		086CFD5C1721CE1D00E62844 /* angry-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD501721CE1D00E62844 /* angry-11.jpg */; };
+		086CFD671721CEB600E62844 /* bored-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD5E1721CEB600E62844 /* bored-0.jpg */; };
+		086CFD681721CEB600E62844 /* bored-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD5F1721CEB600E62844 /* bored-1.jpg */; };
+		086CFD691721CEB600E62844 /* bored-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD601721CEB600E62844 /* bored-2.jpg */; };
+		086CFD6A1721CEB600E62844 /* bored-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD611721CEB600E62844 /* bored-3.jpg */; };
+		086CFD6B1721CEB600E62844 /* bored-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD621721CEB600E62844 /* bored-4.jpg */; };
+		086CFD6C1721CEB600E62844 /* bored-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD631721CEB600E62844 /* bored-5.jpg */; };
+		086CFD6D1721CEB600E62844 /* bored-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD641721CEB600E62844 /* bored-6.jpg */; };
+		086CFD6E1721CEB600E62844 /* bored-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD651721CEB600E62844 /* bored-7.jpg */; };
+		086CFD6F1721CEB600E62844 /* bored-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 086CFD661721CEB600E62844 /* bored-8.jpg */; };
 		087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB621171F77BF00D5511F /* FlatNavBar@2x.png */; };
 		087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB625171F80BF00D5511F /* Lato-Reg.ttf */; };
 		087CB633171F9C3E00D5511F /* FlatTabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */; };
 		087CB639171FA4B600D5511F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087CB638171FA4B600D5511F /* Lato-Bold.ttf */; };
 		087CB63B171FA55F00D5511F /* Empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63A171FA55F00D5511F /* Empty@2x.png */; };
-		087CB63D171FA97300D5511F /* angry-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63C171FA97200D5511F /* angry-4.jpg */; };
-		087CB640171FB05100D5511F /* angry-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 087CB63F171FB05000D5511F /* angry-7.jpg */; };
 		087CB64D172065D300D5511F /* StatsUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB649172065BD00D5511F /* StatsUnselected.png */; };
 		087CB64E172065D300D5511F /* StatsUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB64A172065BE00D5511F /* StatsUnselected@2x.png */; };
 		087CB64F172065D300D5511F /* StatsSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 087CB64B172065C300D5511F /* StatsSelected.png */; };
@@ -31,7 +52,7 @@
 		08EA6AFE17210C90002BC32D /* TrophySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AFA17210C90002BC32D /* TrophySelected@2x.png */; };
 		08EA6AFF17210C90002BC32D /* TrophyUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AFB17210C90002BC32D /* TrophyUnselected.png */; };
 		08EA6B0017210C90002BC32D /* TrophyUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AFC17210C90002BC32D /* TrophyUnselected@2x.png */; };
-		08EA6B0217210DEC002BC32D /* SampleAchievement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6B0117210DEB002BC32D /* SampleAchievement@2x.png */; };
+		08EA6B0217210DEC002BC32D /* LockedAchievement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6B0117210DEB002BC32D /* LockedAchievement@2x.png */; };
 		0EF5BAAA171F1C7700973152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAA9171F1C7700973152 /* UIKit.framework */; };
 		0EF5BAAC171F1C7700973152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAB171F1C7700973152 /* Foundation.framework */; };
 		0EF5BAAE171F1C7700973152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */; };
@@ -45,7 +66,6 @@
 		0EF5BAE5171F1D7200973152 /* StartQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAE2171F1D7200973152 /* StartQuizViewController.xib */; };
 		0EF5BAE6171F1D7200973152 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAE3171F1D7200973152 /* QuizViewController.xib */; };
 		0EF5BAED171F1D9D00973152 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAE8171F1D9C00973152 /* Icon.png */; };
-		0EF5BAEE171F1D9D00973152 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAE9171F1D9C00973152 /* Icon@2x.png */; };
 		0EF5BAEF171F1D9D00973152 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEA171F1D9C00973152 /* Default.png */; };
 		0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEB171F1D9C00973152 /* Default@2x.png */; };
 		0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */; };
@@ -55,20 +75,39 @@
 		0EF5BB1B171F1DDF00973152 /* QuizItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BAD3171F1D2C00973152 /* QuizItem.m */; };
 		0EF5BB1C171F1DDF00973152 /* QuestionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5BAD5171F1D2C00973152 /* QuestionGenerator.m */; };
 		0EF5BB1E171F1E0600973152 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BB1D171F1E0600973152 /* libsqlite3.dylib */; };
-		0EF5BB24171F234900973152 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB23171F234900973152 /* happy.png */; };
 		0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB25171F31EE00973152 /* QuestionData.plist */; };
-		0EF5BB28171F4A5400973152 /* calm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5BB27171F4A5400973152 /* calm.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		086CFD3D1721B48800E62844 /* achievements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = achievements.plist; sourceTree = "<group>"; };
+		086CFD3F1721C32300E62844 /* UnlockedAchievement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UnlockedAchievement@2x.png"; sourceTree = "<group>"; };
+		086CFD431721C91B00E62844 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		086CFD451721CE1D00E62844 /* angry-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-0.jpg"; sourceTree = "<group>"; };
+		086CFD461721CE1D00E62844 /* angry-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-1.jpg"; sourceTree = "<group>"; };
+		086CFD471721CE1D00E62844 /* angry-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-2.jpg"; sourceTree = "<group>"; };
+		086CFD481721CE1D00E62844 /* angry-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-3.jpg"; sourceTree = "<group>"; };
+		086CFD491721CE1D00E62844 /* angry-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-4.jpg"; sourceTree = "<group>"; };
+		086CFD4A1721CE1D00E62844 /* angry-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-5.jpg"; sourceTree = "<group>"; };
+		086CFD4B1721CE1D00E62844 /* angry-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-6.jpg"; sourceTree = "<group>"; };
+		086CFD4C1721CE1D00E62844 /* angry-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-7.jpg"; sourceTree = "<group>"; };
+		086CFD4D1721CE1D00E62844 /* angry-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-8.jpg"; sourceTree = "<group>"; };
+		086CFD4E1721CE1D00E62844 /* angry-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-9.jpg"; sourceTree = "<group>"; };
+		086CFD4F1721CE1D00E62844 /* angry-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-10.jpg"; sourceTree = "<group>"; };
+		086CFD501721CE1D00E62844 /* angry-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-11.jpg"; sourceTree = "<group>"; };
+		086CFD5E1721CEB600E62844 /* bored-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-0.jpg"; sourceTree = "<group>"; };
+		086CFD5F1721CEB600E62844 /* bored-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-1.jpg"; sourceTree = "<group>"; };
+		086CFD601721CEB600E62844 /* bored-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-2.jpg"; sourceTree = "<group>"; };
+		086CFD611721CEB600E62844 /* bored-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-3.jpg"; sourceTree = "<group>"; };
+		086CFD621721CEB600E62844 /* bored-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-4.jpg"; sourceTree = "<group>"; };
+		086CFD631721CEB600E62844 /* bored-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-5.jpg"; sourceTree = "<group>"; };
+		086CFD641721CEB600E62844 /* bored-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-6.jpg"; sourceTree = "<group>"; };
+		086CFD651721CEB600E62844 /* bored-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-7.jpg"; sourceTree = "<group>"; };
+		086CFD661721CEB600E62844 /* bored-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bored-8.jpg"; sourceTree = "<group>"; };
 		087CB621171F77BF00D5511F /* FlatNavBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatNavBar@2x.png"; sourceTree = "<group>"; };
 		087CB625171F80BF00D5511F /* Lato-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Reg.ttf"; sourceTree = "<group>"; };
 		087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlatTabBar@2x.png"; sourceTree = "<group>"; };
 		087CB638171FA4B600D5511F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		087CB63A171FA55F00D5511F /* Empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empty@2x.png"; sourceTree = "<group>"; };
-		087CB63C171FA97200D5511F /* angry-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-4.jpg"; sourceTree = "<group>"; };
-		087CB63F171FB05000D5511F /* angry-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-7.jpg"; sourceTree = "<group>"; };
 		087CB649172065BD00D5511F /* StatsUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatsUnselected.png; sourceTree = "<group>"; };
 		087CB64A172065BE00D5511F /* StatsUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatsUnselected@2x.png"; sourceTree = "<group>"; };
 		087CB64B172065C300D5511F /* StatsSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatsSelected.png; sourceTree = "<group>"; };
@@ -86,7 +125,7 @@
 		08EA6AFA17210C90002BC32D /* TrophySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrophySelected@2x.png"; sourceTree = "<group>"; };
 		08EA6AFB17210C90002BC32D /* TrophyUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrophyUnselected.png; sourceTree = "<group>"; };
 		08EA6AFC17210C90002BC32D /* TrophyUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrophyUnselected@2x.png"; sourceTree = "<group>"; };
-		08EA6B0117210DEB002BC32D /* SampleAchievement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SampleAchievement@2x.png"; sourceTree = "<group>"; };
+		08EA6B0117210DEB002BC32D /* LockedAchievement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockedAchievement@2x.png"; sourceTree = "<group>"; };
 		0EF5BAA6171F1C7700973152 /* EmotiQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotiQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5BAA9171F1C7700973152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF5BAAB171F1C7700973152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,14 +156,11 @@
 		0EF5BAE2171F1D7200973152 /* StartQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartQuizViewController.xib; sourceTree = "<group>"; };
 		0EF5BAE3171F1D7200973152 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 		0EF5BAE8171F1D9C00973152 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		0EF5BAE9171F1D9C00973152 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		0EF5BAEA171F1D9C00973152 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0EF5BAEB171F1D9C00973152 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0EF5BB1D171F1E0600973152 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		0EF5BB23171F234900973152 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 		0EF5BB25171F31EE00973152 /* QuestionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionData.plist; sourceTree = "<group>"; };
-		0EF5BB27171F4A5400973152 /* calm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calm.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,13 +193,57 @@
 			name = "Tab Bar Icons";
 			sourceTree = "<group>";
 		};
-		087CB63E171FA97D00D5511F /* Emotions */ = {
+		086CFD5D1721CE2400E62844 /* Angry */ = {
 			isa = PBXGroup;
 			children = (
-				087CB63F171FB05000D5511F /* angry-7.jpg */,
-				087CB63C171FA97200D5511F /* angry-4.jpg */,
+				086CFD451721CE1D00E62844 /* angry-0.jpg */,
+				086CFD461721CE1D00E62844 /* angry-1.jpg */,
+				086CFD471721CE1D00E62844 /* angry-2.jpg */,
+				086CFD481721CE1D00E62844 /* angry-3.jpg */,
+				086CFD491721CE1D00E62844 /* angry-4.jpg */,
+				086CFD4A1721CE1D00E62844 /* angry-5.jpg */,
+				086CFD4B1721CE1D00E62844 /* angry-6.jpg */,
+				086CFD4C1721CE1D00E62844 /* angry-7.jpg */,
+				086CFD4D1721CE1D00E62844 /* angry-8.jpg */,
+				086CFD4E1721CE1D00E62844 /* angry-9.jpg */,
+				086CFD4F1721CE1D00E62844 /* angry-10.jpg */,
+				086CFD501721CE1D00E62844 /* angry-11.jpg */,
 			);
-			name = Emotions;
+			name = Angry;
+			sourceTree = "<group>";
+		};
+		086CFD701721CEC100E62844 /* Bored */ = {
+			isa = PBXGroup;
+			children = (
+				086CFD5E1721CEB600E62844 /* bored-0.jpg */,
+				086CFD5F1721CEB600E62844 /* bored-1.jpg */,
+				086CFD601721CEB600E62844 /* bored-2.jpg */,
+				086CFD611721CEB600E62844 /* bored-3.jpg */,
+				086CFD621721CEB600E62844 /* bored-4.jpg */,
+				086CFD631721CEB600E62844 /* bored-5.jpg */,
+				086CFD641721CEB600E62844 /* bored-6.jpg */,
+				086CFD651721CEB600E62844 /* bored-7.jpg */,
+				086CFD661721CEB600E62844 /* bored-8.jpg */,
+			);
+			name = Bored;
+			sourceTree = "<group>";
+		};
+		086CFD711721CED300E62844 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
+				087CB638171FA4B600D5511F /* Lato-Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		087CB63E171FA97D00D5511F /* Emotion Images */ = {
+			isa = PBXGroup;
+			children = (
+				086CFD701721CEC100E62844 /* Bored */,
+				086CFD5D1721CE2400E62844 /* Angry */,
+			);
+			name = "Emotion Images";
 			sourceTree = "<group>";
 		};
 		0EF5BA9D171F1C7700973152 = {
@@ -211,21 +291,19 @@
 		0EF5BAB0171F1C7700973152 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				087CB63E171FA97D00D5511F /* Emotions */,
 				0EF5BAB1171F1C7700973152 /* EmotiQuiz-Info.plist */,
 				0EF5BAB2171F1C7700973152 /* InfoPlist.strings */,
 				0EF5BAB5171F1C7700973152 /* main.m */,
 				0EF5BAB7171F1C7700973152 /* EmotiQuiz-Prefix.pch */,
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
 				086CFD3D1721B48800E62844 /* achievements.plist */,
-				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
-				087CB638171FA4B600D5511F /* Lato-Bold.ttf */,
-				08EA6B0117210DEB002BC32D /* SampleAchievement@2x.png */,
+				086CFD711721CED300E62844 /* Fonts */,
+				087CB63E171FA97D00D5511F /* Emotion Images */,
+				08EA6B0117210DEB002BC32D /* LockedAchievement@2x.png */,
+				086CFD3F1721C32300E62844 /* UnlockedAchievement@2x.png */,
 				087CB63A171FA55F00D5511F /* Empty@2x.png */,
 				087CB621171F77BF00D5511F /* FlatNavBar@2x.png */,
 				087CB632171F9C3E00D5511F /* FlatTabBar@2x.png */,
-				0EF5BB23171F234900973152 /* happy.png */,
-				0EF5BB27171F4A5400973152 /* calm.jpg */,
 				0869DF1B1721911100C0A367 /* Tab Bar Icons */,
 				08EA6AF517210A5C002BC32D /* Trophy.png */,
 				08EA6AF617210A5C002BC32D /* Trophy@2x.png */,
@@ -234,7 +312,7 @@
 				08EA6AFB17210C90002BC32D /* TrophyUnselected.png */,
 				08EA6AFC17210C90002BC32D /* TrophyUnselected@2x.png */,
 				0EF5BAE8171F1D9C00973152 /* Icon.png */,
-				0EF5BAE9171F1D9C00973152 /* Icon@2x.png */,
+				086CFD431721C91B00E62844 /* Icon@2x.png */,
 				0EF5BAEA171F1D9C00973152 /* Default.png */,
 				0EF5BAEB171F1D9C00973152 /* Default@2x.png */,
 				0EF5BAEC171F1D9D00973152 /* Default-568h@2x.png */,
@@ -341,20 +419,15 @@
 				0EF5BAE5171F1D7200973152 /* StartQuizViewController.xib in Resources */,
 				0EF5BAE6171F1D7200973152 /* QuizViewController.xib in Resources */,
 				0EF5BAED171F1D9D00973152 /* Icon.png in Resources */,
-				0EF5BAEE171F1D9D00973152 /* Icon@2x.png in Resources */,
 				0EF5BAEF171F1D9D00973152 /* Default.png in Resources */,
 				0EF5BAF0171F1D9D00973152 /* Default@2x.png in Resources */,
 				0EF5BAF1171F1D9D00973152 /* Default-568h@2x.png in Resources */,
-				0EF5BB24171F234900973152 /* happy.png in Resources */,
 				0EF5BB26171F31EE00973152 /* QuestionData.plist in Resources */,
-				0EF5BB28171F4A5400973152 /* calm.jpg in Resources */,
 				087CB622171F77BF00D5511F /* FlatNavBar@2x.png in Resources */,
 				087CB626171F80BF00D5511F /* Lato-Reg.ttf in Resources */,
 				087CB633171F9C3E00D5511F /* FlatTabBar@2x.png in Resources */,
 				087CB639171FA4B600D5511F /* Lato-Bold.ttf in Resources */,
 				087CB63B171FA55F00D5511F /* Empty@2x.png in Resources */,
-				087CB63D171FA97300D5511F /* angry-4.jpg in Resources */,
-				087CB640171FB05100D5511F /* angry-7.jpg in Resources */,
 				087CB64D172065D300D5511F /* StatsUnselected.png in Resources */,
 				087CB64E172065D300D5511F /* StatsUnselected@2x.png in Resources */,
 				087CB64F172065D300D5511F /* StatsSelected.png in Resources */,
@@ -370,8 +443,31 @@
 				08EA6AFE17210C90002BC32D /* TrophySelected@2x.png in Resources */,
 				08EA6AFF17210C90002BC32D /* TrophyUnselected.png in Resources */,
 				08EA6B0017210C90002BC32D /* TrophyUnselected@2x.png in Resources */,
-				08EA6B0217210DEC002BC32D /* SampleAchievement@2x.png in Resources */,
+				08EA6B0217210DEC002BC32D /* LockedAchievement@2x.png in Resources */,
 				086CFD3E1721B48800E62844 /* achievements.plist in Resources */,
+				086CFD401721C32300E62844 /* UnlockedAchievement@2x.png in Resources */,
+				086CFD441721C91C00E62844 /* Icon@2x.png in Resources */,
+				086CFD511721CE1D00E62844 /* angry-0.jpg in Resources */,
+				086CFD521721CE1D00E62844 /* angry-1.jpg in Resources */,
+				086CFD531721CE1D00E62844 /* angry-2.jpg in Resources */,
+				086CFD541721CE1D00E62844 /* angry-3.jpg in Resources */,
+				086CFD551721CE1D00E62844 /* angry-4.jpg in Resources */,
+				086CFD561721CE1D00E62844 /* angry-5.jpg in Resources */,
+				086CFD571721CE1D00E62844 /* angry-6.jpg in Resources */,
+				086CFD581721CE1D00E62844 /* angry-7.jpg in Resources */,
+				086CFD591721CE1D00E62844 /* angry-8.jpg in Resources */,
+				086CFD5A1721CE1D00E62844 /* angry-9.jpg in Resources */,
+				086CFD5B1721CE1D00E62844 /* angry-10.jpg in Resources */,
+				086CFD5C1721CE1D00E62844 /* angry-11.jpg in Resources */,
+				086CFD671721CEB600E62844 /* bored-0.jpg in Resources */,
+				086CFD681721CEB600E62844 /* bored-1.jpg in Resources */,
+				086CFD691721CEB600E62844 /* bored-2.jpg in Resources */,
+				086CFD6A1721CEB600E62844 /* bored-3.jpg in Resources */,
+				086CFD6B1721CEB600E62844 /* bored-4.jpg in Resources */,
+				086CFD6C1721CEB600E62844 /* bored-5.jpg in Resources */,
+				086CFD6D1721CEB600E62844 /* bored-6.jpg in Resources */,
+				086CFD6E1721CEB600E62844 /* bored-7.jpg in Resources */,
+				086CFD6F1721CEB600E62844 /* bored-8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
