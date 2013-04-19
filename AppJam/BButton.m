@@ -5,6 +5,8 @@
 //  Created by Mathieu Bolard on 31/07/12.
 //  Copyright (c) 2012 Mathieu Bolard. All rights reserved.
 //
+//  Modified by Nealon Young for flat appearance
+//
 
 #import "BButton.h"
 
@@ -34,17 +36,21 @@
 
 - (id) initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
+    
     if (self) {
         [self setup];
     }
+    
     return self;
 }
 
 - (id) initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
+    
     if (self) {
         [self setup];
     }
+    
     return self;
 }
 
@@ -147,41 +153,6 @@
     CGContextFillRect(context, rect);
     //CGContextDrawLinearGradient(context, _gradient, CGPointMake(0.0, self.highlighted ? rect.size.height-0.5 : 0.5), CGPointMake(0.0, self.highlighted ? 0.5 : rect.size.height-0.5), 0);
     CGContextRestoreGState(context);
-    
-    
-    /*
-    if (!self.highlighted) {
-        ////// Rounded Rectangle Inner Shadow
-        CGRect roundedRectangleBorderRect = CGRectInset([roundedRectanglePath bounds], -shadowBlurRadius, -shadowBlurRadius);
-        roundedRectangleBorderRect = CGRectOffset(roundedRectangleBorderRect, -shadowOffset.width, -shadowOffset.height);
-        roundedRectangleBorderRect = CGRectInset(CGRectUnion(roundedRectangleBorderRect, [roundedRectanglePath bounds]), -1, -1);
-        
-        UIBezierPath* roundedRectangleNegativePath = [UIBezierPath bezierPathWithRect: roundedRectangleBorderRect];
-        [roundedRectangleNegativePath appendPath: roundedRectanglePath];
-        roundedRectangleNegativePath.usesEvenOddFillRule = YES;
-        
-        CGContextSaveGState(context);
-        {
-            CGFloat xOffset = shadowOffset.width + round(roundedRectangleBorderRect.size.width);
-            CGFloat yOffset = shadowOffset.height;
-            CGContextSetShadowWithColor(context,
-                                        CGSizeMake(xOffset + copysign(0.1, xOffset), yOffset + copysign(0.1, yOffset)),
-                                        shadowBlurRadius,
-                                        shadow.CGColor);
-            
-            [roundedRectanglePath addClip];
-            CGAffineTransform transform = CGAffineTransformMakeTranslation(-round(roundedRectangleBorderRect.size.width), 0);
-            [roundedRectangleNegativePath applyTransform: transform];
-            [[UIColor grayColor] setFill];
-            [roundedRectangleNegativePath fill];
-        }
-        CGContextRestoreGState(context);
-    }
-    */
-    
-    //[border setStroke];
-    //roundedRectanglePath.lineWidth = 1;
-    //[roundedRectanglePath stroke];
 }
 
 - (UIColor *)lightenColor:(UIColor *)oldColor value:(float)value {
@@ -214,16 +185,16 @@
 }
 
 - (UIColor *)darkenColor:(UIColor *)oldColor value:(float)value {
-    int   totalComponents = CGColorGetNumberOfComponents(oldColor.CGColor);
-    bool  isGreyscale     = totalComponents == 2 ? YES : NO;
+    int totalComponents = CGColorGetNumberOfComponents(oldColor.CGColor);
+    bool isGreyscale = totalComponents == 2 ? YES : NO;
     
     CGFloat* oldComponents = (CGFloat *)CGColorGetComponents(oldColor.CGColor);
     CGFloat newComponents[4];
     
     if (isGreyscale) {
-        newComponents[0] = oldComponents[0]-value < 0.0 ? 0.0 : oldComponents[0]-value;
-        newComponents[1] = oldComponents[0]-value < 0.0 ? 0.0 : oldComponents[0]-value;
-        newComponents[2] = oldComponents[0]-value < 0.0 ? 0.0 : oldComponents[0]-value;
+        newComponents[0] = oldComponents[0] - value < 0.0 ? 0.0 : oldComponents[0]-value;
+        newComponents[1] = oldComponents[0] - value < 0.0 ? 0.0 : oldComponents[0]-value;
+        newComponents[2] = oldComponents[0] - value < 0.0 ? 0.0 : oldComponents[0]-value;
         newComponents[3] = oldComponents[1];
     } else {
         newComponents[0] = oldComponents[0]-value < 0.0 ? 0.0 : oldComponents[0]-value;

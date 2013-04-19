@@ -24,6 +24,9 @@
 		08E1F2801720660C0086B160 /* QuizSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F27E1720660C0086B160 /* QuizSelected@2x.png */; };
 		08E1F2871720670F0086B160 /* QuizUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F2851720670F0086B160 /* QuizUnselected.png */; };
 		08E1F2881720670F0086B160 /* QuizUnselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E1F2861720670F0086B160 /* QuizUnselected@2x.png */; };
+		08EA6AED1720F943002BC32D /* AchievementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EA6AEB1720F943002BC32D /* AchievementsViewController.m */; };
+		08EA6AEE1720F943002BC32D /* AchievementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AEC1720F943002BC32D /* AchievementsViewController.xib */; };
+		08EA6AF0172104ED002BC32D /* Achievement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EA6AEF172104ED002BC32D /* Achievement@2x.png */; };
 		0EF5BAAA171F1C7700973152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAA9171F1C7700973152 /* UIKit.framework */; };
 		0EF5BAAC171F1C7700973152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAB171F1C7700973152 /* Foundation.framework */; };
 		0EF5BAAE171F1C7700973152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */; };
@@ -70,14 +73,18 @@
 		08E1F27E1720660C0086B160 /* QuizSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuizSelected@2x.png"; sourceTree = "<group>"; };
 		08E1F2851720670F0086B160 /* QuizUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizUnselected.png; sourceTree = "<group>"; };
 		08E1F2861720670F0086B160 /* QuizUnselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuizUnselected@2x.png"; sourceTree = "<group>"; };
-		0EF5BAA6171F1C7700973152 /* AppJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EA6AEA1720F943002BC32D /* AchievementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementsViewController.h; sourceTree = "<group>"; };
+		08EA6AEB1720F943002BC32D /* AchievementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementsViewController.m; sourceTree = "<group>"; };
+		08EA6AEC1720F943002BC32D /* AchievementsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementsViewController.xib; sourceTree = "<group>"; };
+		08EA6AEF172104ED002BC32D /* Achievement@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Achievement@2x.png"; sourceTree = "<group>"; };
+		0EF5BAA6171F1C7700973152 /* EmotiQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotiQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5BAA9171F1C7700973152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF5BAAB171F1C7700973152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EF5BAAD171F1C7700973152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0EF5BAB1171F1C7700973152 /* AppJam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppJam-Info.plist"; sourceTree = "<group>"; };
+		0EF5BAB1171F1C7700973152 /* EmotiQuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmotiQuiz-Info.plist"; sourceTree = "<group>"; };
 		0EF5BAB3171F1C7700973152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EF5BAB5171F1C7700973152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0EF5BAB7171F1C7700973152 /* AppJam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppJam-Prefix.pch"; sourceTree = "<group>"; };
+		0EF5BAB7171F1C7700973152 /* EmotiQuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmotiQuiz-Prefix.pch"; sourceTree = "<group>"; };
 		0EF5BAB8171F1C7700973152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EF5BAB9171F1C7700973152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0EF5BACC171F1D2C00973152 /* BButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
@@ -146,7 +153,7 @@
 		0EF5BAA7171F1C7700973152 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EF5BAA6171F1C7700973152 /* AppJam.app */,
+				0EF5BAA6171F1C7700973152 /* EmotiQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,11 +185,12 @@
 		0EF5BAB0171F1C7700973152 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08EA6AEF172104ED002BC32D /* Achievement@2x.png */,
 				087CB63E171FA97D00D5511F /* Emotions */,
-				0EF5BAB1171F1C7700973152 /* AppJam-Info.plist */,
+				0EF5BAB1171F1C7700973152 /* EmotiQuiz-Info.plist */,
 				0EF5BAB2171F1C7700973152 /* InfoPlist.strings */,
 				0EF5BAB5171F1C7700973152 /* main.m */,
-				0EF5BAB7171F1C7700973152 /* AppJam-Prefix.pch */,
+				0EF5BAB7171F1C7700973152 /* EmotiQuiz-Prefix.pch */,
 				0EF5BB25171F31EE00973152 /* QuestionData.plist */,
 				087CB625171F80BF00D5511F /* Lato-Reg.ttf */,
 				087CB638171FA4B600D5511F /* Lato-Bold.ttf */,
@@ -230,10 +238,12 @@
 		0EF5BAE0171F1D5B00973152 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0EF5BAD7171F1D5700973152 /* StatsViewController.h */,
-				0EF5BAD8171F1D5700973152 /* StatsViewController.m */,
 				0EF5BAD9171F1D5700973152 /* StartQuizViewController.h */,
 				0EF5BADA171F1D5700973152 /* StartQuizViewController.m */,
+				08EA6AEA1720F943002BC32D /* AchievementsViewController.h */,
+				08EA6AEB1720F943002BC32D /* AchievementsViewController.m */,
+				0EF5BAD7171F1D5700973152 /* StatsViewController.h */,
+				0EF5BAD8171F1D5700973152 /* StatsViewController.m */,
 				0EF5BADB171F1D5700973152 /* QuizViewController.h */,
 				0EF5BADC171F1D5700973152 /* QuizViewController.m */,
 			);
@@ -246,6 +256,7 @@
 				0EF5BAE1171F1D7200973152 /* StatsViewController.xib */,
 				0EF5BAE2171F1D7200973152 /* StartQuizViewController.xib */,
 				0EF5BAE3171F1D7200973152 /* QuizViewController.xib */,
+				08EA6AEC1720F943002BC32D /* AchievementsViewController.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -253,9 +264,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EF5BAA5171F1C7700973152 /* AppJam */ = {
+		0EF5BAA5171F1C7700973152 /* EmotiQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EF5BAC9171F1C7700973152 /* Build configuration list for PBXNativeTarget "AppJam" */;
+			buildConfigurationList = 0EF5BAC9171F1C7700973152 /* Build configuration list for PBXNativeTarget "EmotiQuiz" */;
 			buildPhases = (
 				0EF5BAA2171F1C7700973152 /* Sources */,
 				0EF5BAA3171F1C7700973152 /* Frameworks */,
@@ -265,9 +276,9 @@
 			);
 			dependencies = (
 			);
-			name = AppJam;
+			name = EmotiQuiz;
 			productName = AppJam;
-			productReference = 0EF5BAA6171F1C7700973152 /* AppJam.app */;
+			productReference = 0EF5BAA6171F1C7700973152 /* EmotiQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -279,7 +290,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Nealon Young";
 			};
-			buildConfigurationList = 0EF5BAA1171F1C7700973152 /* Build configuration list for PBXProject "AppJam" */;
+			buildConfigurationList = 0EF5BAA1171F1C7700973152 /* Build configuration list for PBXProject "EmotiQuiz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -291,7 +302,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EF5BAA5171F1C7700973152 /* AppJam */,
+				0EF5BAA5171F1C7700973152 /* EmotiQuiz */,
 			);
 		};
 /* End PBXProject section */
@@ -330,6 +341,8 @@
 				08E1F2801720660C0086B160 /* QuizSelected@2x.png in Resources */,
 				08E1F2871720670F0086B160 /* QuizUnselected.png in Resources */,
 				08E1F2881720670F0086B160 /* QuizUnselected@2x.png in Resources */,
+				08EA6AEE1720F943002BC32D /* AchievementsViewController.xib in Resources */,
+				08EA6AF0172104ED002BC32D /* Achievement@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +363,7 @@
 				0EF5BB1A171F1DDF00973152 /* QuizQuestion.m in Sources */,
 				0EF5BB1B171F1DDF00973152 /* QuizItem.m in Sources */,
 				0EF5BB1C171F1DDF00973152 /* QuestionGenerator.m in Sources */,
+				08EA6AED1720F943002BC32D /* AchievementsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +441,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppJam/AppJam-Prefix.pch";
-				INFOPLIST_FILE = "AppJam/AppJam-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AppJam/EmotiQuiz-Prefix.pch";
+				INFOPLIST_FILE = "AppJam/EmotiQuiz-Info.plist";
+				PRODUCT_NAME = EmotiQuiz;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -438,9 +452,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AppJam/AppJam-Prefix.pch";
-				INFOPLIST_FILE = "AppJam/AppJam-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AppJam/EmotiQuiz-Prefix.pch";
+				INFOPLIST_FILE = "AppJam/EmotiQuiz-Info.plist";
+				PRODUCT_NAME = EmotiQuiz;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -448,7 +462,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EF5BAA1171F1C7700973152 /* Build configuration list for PBXProject "AppJam" */ = {
+		0EF5BAA1171F1C7700973152 /* Build configuration list for PBXProject "EmotiQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EF5BAC7171F1C7700973152 /* Debug */,
@@ -457,7 +471,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EF5BAC9171F1C7700973152 /* Build configuration list for PBXNativeTarget "AppJam" */ = {
+		0EF5BAC9171F1C7700973152 /* Build configuration list for PBXNativeTarget "EmotiQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EF5BACA171F1C7700973152 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  QuestionGenerator.h
-//  Fabflix
+//  EmotiQuiz
 //
 //  Created by Nealon Young on 3/13/13.
 //  Copyright (c) 2013 Nealon Young. All rights reserved.

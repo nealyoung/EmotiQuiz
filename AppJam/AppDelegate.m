@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Fabflix
+//  EmotiQuiz
 //
 //  Created by Nealon Young on 3/8/13.
 //  Copyright (c) 2013 Nealon Young. All rights reserved.
@@ -19,12 +19,13 @@
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Lato-Regular" size:19]];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    UIViewController *quizView = [[StartQuizViewController alloc] initWithNibName:@"StartQuizViewController" bundle:nil];
-    UIViewController *statsView = [[StatsViewController alloc] initWithNibName:@"StatsViewController" bundle:nil];
+    StartQuizViewController *quizView = [[StartQuizViewController alloc] initWithNibName:@"StartQuizViewController" bundle:nil];
+    StatsViewController *statsView = [[StatsViewController alloc] initWithNibName:@"StatsViewController" bundle:nil];
+    UIViewController *achievementsView = [[AchievementsViewController alloc] initWithNibName:@"AchievementsViewController" bundle:nil];
     
     self.tabController = [[UITabBarController alloc] init];
     
-    NSArray *tabs = [[NSArray alloc] initWithObjects: quizView, statsView, nil];
+    NSArray *tabs = [[NSArray alloc] initWithObjects: quizView, statsView, achievementsView, nil];
     
     [self.tabController setViewControllers:tabs];
     self.tabController.tabBar.backgroundImage = [UIImage imageNamed:@"FlatTabBar.png"];

@@ -1,6 +1,6 @@
 //
 //  QuizItem.h
-//  Fabflix
+//  EmotiQuiz
 //
 //  Created by Alex Lipsett on 3/11/13.
 //  Copyright (c) 2013 Nealon Young. All rights reserved.
