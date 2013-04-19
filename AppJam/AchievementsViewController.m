@@ -33,8 +33,10 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+// Reload the list of achievements whenever the view appears so newly earned achievements are reflected
 - (void)viewDidAppear:(BOOL)animated {
-    
+    achievements = [[NSUserDefaults standardUserDefaults] dictionaryForKey:@"userAchievements"];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,10 +56,14 @@
     }
     
     cell.imageView.image = [UIImage imageNamed:@"SampleAchievement.png"];
-    cell.textLabel.text = @"Achievement 69";
+    
+    cell.textLabel.text = @"First Steps";
     cell.textLabel.font = [UIFont fontWithName:@"Lato-Bold" size:19.0];
+    cell.textLabel.textColor = [UIColor colorWithRed:0.13 green:0.18 blue:0.25 alpha:1.0];
+    
     cell.detailTextLabel.text = @"Locked · 42% Completed";
     cell.detailTextLabel.font = [UIFont fontWithName:@"Lato-Regular" size:14.0];
+    cell.detailTextLabel.textColor = [UIColor colorWithRed:0.51 green:0.58 blue:0.58 alpha:1.0];
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
@@ -65,7 +71,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 7;
+    return 17;
     //return [achievements count];
 }
 
