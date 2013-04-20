@@ -7,7 +7,7 @@
 		<key>progress</key>
 		<integer>0</integer>
 		<key>awarded</key>
-		<false/>
+		<true/>
 		<key>title</key>
 		<string>Play Time!</string>
 		<key>description</key>
@@ -228,7 +228,7 @@
 		<key>progress</key>
 		<integer>0</integer>
 		<key>awarded</key>
-		<false/>
+		<true/>
 		<key>title</key>
 		<string>Angry Eyes</string>
 		<key>description</key>

@@ -75,14 +75,16 @@
     if (awarded) {
         cell.imageView.image = [UIImage imageNamed:@"UnlockedAchievement.png"];
         cell.detailTextLabel.text = achievement[@"description"];
+        cell.textLabel.textColor = [UIColor colorWithRed:0.13 green:0.18 blue:0.25 alpha:1.0];
     } else {
         cell.imageView.image = [UIImage imageNamed:@"LockedAchievement.png"];
         cell.detailTextLabel.text = [@"Locked · " stringByAppendingString:achievement[@"description"]];
+        cell.textLabel.textColor = [UIColor colorWithRed:0.51 green:0.58 blue:0.58 alpha:1.0];
     }
     
     cell.textLabel.text = achievement[@"title"];
     cell.textLabel.font = [UIFont fontWithName:@"Lato-Bold" size:19.0];
-    cell.textLabel.textColor = [UIColor colorWithRed:0.13 green:0.18 blue:0.25 alpha:1.0];
+    
     
     cell.detailTextLabel.font = [UIFont fontWithName:@"Lato-Regular" size:14.0];
     cell.detailTextLabel.textColor = [UIColor colorWithRed:0.51 green:0.58 blue:0.58 alpha:1.0];

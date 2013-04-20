@@ -106,43 +106,43 @@
     
     [prefs setInteger:incorrectAnswers forKey:@"incorrectAnswers"];
     
-    //Update the total score
+    // Update the total score
     NSInteger totalScore = [prefs integerForKey:@"totalScore"];
     totalScore += (self.numCorrect * 100);
     
     [prefs setInteger:totalScore forKey:@"totalScore"];
     
-    //Update the happy total
+    // Update the happy total
     NSInteger happyScore = [prefs integerForKey:@"happyScore"];
     happyScore += (self.happyCount);
     
     [prefs setInteger:happyScore forKey:@"happyScore"];
     
-    //Update the sad total
+    // Update the sad total
     NSInteger sadScore = [prefs integerForKey:@"sadScore"];
     sadScore += (self.sadCount);
     
     [prefs setInteger:sadScore forKey:@"sadScore"];
     
-    //Update the proud total
+    // Update the proud total
     NSInteger proudScore = [prefs integerForKey:@"proudScore"];
     proudScore += (self.proudCount);
     
     [prefs setInteger:proudScore forKey:@"proudScore"];
     
-    //Update the calm total
+    // Update the calm total
     NSInteger calmScore = [prefs integerForKey:@"calmScore"];
     calmScore += (self.calmCount);
     
     [prefs setInteger:calmScore forKey:@"calmScore"];
     
-    //Update the angry total
+    // Update the angry total
     NSInteger angryScore = [prefs integerForKey:@"angryScore"];
     angryScore += (self.angryCount);
     
     [prefs setInteger:angryScore forKey:@"angryScore"];
     
-    //Update the worried total
+    // Update the worried total
     NSInteger worriedScore = [prefs integerForKey:@"worriedScore"];
     worriedScore += (self.worriedCount);
     
@@ -179,48 +179,38 @@
 - (void)tabulateAnswer:(NSString *)answerType{
     if ([answerType isEqualToString:@"Happy"]){
         self.happyCount++;
-    }
-    else if([answerType isEqualToString:@"Sad"]){
+    } else if([answerType isEqualToString:@"Sad"]){
         self.sadCount++;
-    }
-    else if ([answerType isEqualToString:@"Proud"]){
+    } else if ([answerType isEqualToString:@"Proud"]){
         self.proudCount++;
-    }
-    else if ([answerType isEqualToString:@"Calm"]){
+    } else if ([answerType isEqualToString:@"Calm"]){
         self.calmCount++;
-    }
-    else if ([answerType isEqualToString:@"Angry"]){
+    } else if ([answerType isEqualToString:@"Angry"]){
         self.angryCount++;
-    }
-    else if ([answerType isEqualToString:@"Worried"]){
+    } else if ([answerType isEqualToString:@"Worried"]){
         self.worriedCount++;
-    }
-    else if ([answerType isEqualToString:@"Excited"]){
+    } else if ([answerType isEqualToString:@"Excited"]){
         self.excitedCount++;
-    }
-    else if ([answerType isEqualToString:@"Curious"]){
+    } else if ([answerType isEqualToString:@"Curious"]){
         self.curiousCount++;
-    }
-    else if ([answerType isEqualToString:@"Suprised"]){
+    } else if ([answerType isEqualToString:@"Suprised"]){
         self.surprisedCount++;
-    }
-    else if ([answerType isEqualToString:@"Bored"]){
+    } else if ([answerType isEqualToString:@"Bored"]){
         self.boredCount++;
     }
-    
 }
 
 - (void)grantAchievements {
-    //Load userDefaults and get the plist loaded up
+    // Load userDefaults and get the plist loaded up
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     
     NSString *achievementsDataPath = [[NSBundle mainBundle] pathForResource:@"achievements" ofType:@"plist"];
     NSDictionary *achievementsData = [NSDictionary dictionaryWithContentsOfFile:achievementsDataPath];
     
-    //Create the dictionary of user achievements to be stored in NSUserDefaults
+    // Create the dictionary of user achievements to be stored in NSUserDefaults
     NSDictionary *userAchievementsImmutable;
     
-    //If the dictionary does not exist in NSUserDefaults, we must copy it over from the plist of achievements
+    // If the dictionary does not exist in NSUserDefaults, we must copy it over from the plist of achievements
     if ([prefs dictionaryForKey:@"userAchievements"] == nil) {
         [prefs setObject:achievementsData forKey:@"userAchievements"];
     }
@@ -265,14 +255,12 @@
         }
         
         //if they haven't this gets executed
-        if(numVal < condition){
-            
+        if(numVal < condition) {
             NSInteger prog = [progress intValue];
             NSInteger sum = prog + userValue;
             
             NSNumber *runningTotal = [NSNumber numberWithInt:sum];
             [userAchievement setValue:runningTotal forKey:@"progress"];
-            
         }
         
         //Save the user achievement to the dictionary of all achievements
